@@ -29,8 +29,6 @@ namespace Battle.Manager
         private int currentPlayIndex;        // 当前玩家索引
         private int curRoundPassed;          // 总经过的回合数
         private int endRound;                // 游戏结束回合数
-
-        public event Action OnRoundChanged;          // 回合变化事件
         public event Action OnRoundOver;         // 当前回合完成
         public event Action<int> OnPlayIndexChanged; // 当前玩家索引变化事件
         public static RoundManager Instance { get; private set; }

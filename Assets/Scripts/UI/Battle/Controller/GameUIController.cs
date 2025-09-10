@@ -32,8 +32,6 @@ public class GameUIController : MonoBehaviour
         PlayerManager.Instance.OnCurPlayerChanged += HandlePlayIndexChanged;
         /// 目的地变化
         GridManager.Instance.OnUpdateStationDest += HandleUpdateUI;
-        /// 轮次变化
-        RoundManager.Instance.OnRoundChanged += HandleRoundChanged;
         /// 玩家行动变化
         playerViewModel.OnPlayerActionChanged += HandleActionChanged;
         /// 玩家数据变化
@@ -163,11 +161,6 @@ public class GameUIController : MonoBehaviour
     private void HandleMessage(string message)
     {
         OnShowMessage?.Invoke(message);
-    }
-
-    private void HandleRoundChanged()
-    {
-        // OnChangeUIState?.Invoke(UIState.Hide);
     }
     
     private void HandleActionChanged(PlayerAction action)

@@ -41,7 +41,6 @@ namespace Battle.Manager
 
         private void InitEvent()
         {
-            roundManager.OnRoundChanged += HandleRoundChanged;
             roundManager.OnRoundOver += HandleRoundOver;
             roundManager.OnPlayIndexChanged += HandlePlayIndexChanged;
 
@@ -73,16 +72,6 @@ namespace Battle.Manager
         {
             Debug.Log("游戏结束！");
             // OnGameOver?.Invoke();
-        }
-
-        private void HandleRoundChanged()
-        {
-            Debug.Log("模拟播放一个回合特效");
-            GameUtils.SetTimeout(1.0f, () =>
-            {
-                Debug.Log("回合特效播放完毕");
-                roundManager.PlayerStart();
-            });
         }
 
         private void HandleRoundOver()
