@@ -38,3 +38,6 @@ UnityEngine.UI.csproj
 Library/
 Logs/
 Temp/
+Packages/
+.vs/
+obj/
