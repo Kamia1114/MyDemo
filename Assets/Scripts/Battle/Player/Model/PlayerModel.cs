@@ -36,13 +36,13 @@ public class PlayerModel : PlayerModelABS
         characterName = characterCfg.name;
         diceList = characterCfg.dice;
         // 初始化玩家资产
-        property = new Property
+        playerAssets = new PlayerAssets
         {
             Money = characterCfg.money, // 初始资金
-            Cards = characterCfg.card?.Select(cardId => new Card { id = Guid.NewGuid().GetHashCode(), cardId = cardId, times = 1 }).ToList() ?? new List<Card>()
+            Cards = characterCfg.card?.Select(cardId => new PlayerCard { id = Guid.NewGuid().GetHashCode(), cardId = cardId, times = 1 }).ToList() ?? new List<PlayerCard>()
         };
-        currentGridId = 1001;//初始发车上海
-        movedPath = new List<int> { currentGridId };
+        currentGridId = int.Parse(ConfigManager.GetGameConfig("StartPoint"));//初始发车上海
+        movedPath = new List<int> { };
         movePath = new List<int> { };
         carRes = $"Car_0{userData.index}"; // 这里可以根据需要配置车ID
         playerAction = PlayerAction.Idle;
@@ -142,7 +142,7 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual void ChangeMoney(int amount)
     {
-        property.Money += amount;
+        playerAssets.Money += amount;
         OnUpdateUI?.Invoke();
     }
 
@@ -151,9 +151,9 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual bool BuyCompany(Stock stock)
     {
-        if (property.Money < stock.money) return false;
+        if (playerAssets.Money < stock.money) return false;
         ChangeMoney(-1 * stock.money);
-        property.OwnedCompanys.Add(stock);
+        playerAssets.OwnedCompanys.Add(stock);
         return true;
     }
 
@@ -163,7 +163,7 @@ public class PlayerModel : PlayerModelABS
     /// <param name="companyId"></param>
     public virtual void SellCompany(int companyId)
     {
-        var stock = property.OwnedCompanys.Find(s => s.id == companyId);
+        var stock = playerAssets.OwnedCompanys.Find(s => s.id == companyId);
         if (stock != null)
         {
             ChangeMoney(stock.money);
@@ -177,10 +177,10 @@ public class PlayerModel : PlayerModelABS
     /// <param name="companyId"></param>
     public virtual void RemoveCompany(int companyId)
     {
-        var stock = property.OwnedCompanys.Find(s => s.id == companyId);
+        var stock = playerAssets.OwnedCompanys.Find(s => s.id == companyId);
         if (stock != null)
         {
-            property.OwnedCompanys.Remove(stock);
+            playerAssets.OwnedCompanys.Remove(stock);
         }
     }
 
@@ -189,12 +189,12 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual bool HasCompanyById(int companyId)
     {
-        return property.OwnedCompanys.Exists(stock => stock.id == companyId);
+        return playerAssets.OwnedCompanys.Exists(stock => stock.id == companyId);
     }
 
     public virtual int GetCompanyCount()
     {
-        return property.OwnedCompanys.Count;
+        return playerAssets.OwnedCompanys.Count;
     }
 
     /// <summary>
@@ -202,20 +202,39 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual int GetAllCompanysDivvy()
     {
-        return property.OwnedCompanys.Sum(s => s.money * s.ratio / 100);
+        return playerAssets.OwnedCompanys.Sum(s => s.money * s.ratio / 100);
     }
 
     public virtual int GetMoney()
     {
-        return property.Money;
+        return playerAssets.Money;
     }
 
     /// <summary>
     /// 添加道具
     /// </summary>
-    public virtual void AddCard(Card card)
+    public virtual void AddCard(int cardId)
     {
-        property.Cards.Add(card);
+        var cardCfg = ConfigManager.GetConfig<CardCfgTable>(cardId);
+        if (cardCfg != null)
+        {
+            int count;
+            if (cardCfg.count.Count == 1)
+            {
+                count = cardCfg.count[0];
+            }
+            else if (cardCfg.count.Count == 2)
+            {
+                count = UnityEngine.Random.Range(cardCfg.count[0], cardCfg.count[1] + 1);
+            }
+            else
+            {
+                Debug.LogWarning($"卡牌配置错误，ID {cardId} 的 count 字段应包含1或2个元素");
+                return;
+            }
+            PlayerCard card = new() { id = Guid.NewGuid().GetHashCode(), cardId = cardId, times = count };
+            playerAssets.Cards.Add(card);
+        }
     }
 
     /// <summary>
@@ -223,13 +242,13 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual bool UseCard(int id)
     {
-        var card = property.Cards.Find(i => i.id == id);
+        var card = playerAssets.Cards.Find(i => i.id == id);
         if (card != null)
         {
             card.times--;
             if (card.times <= 0)
             {
-                property.Cards.Remove(card);
+                playerAssets.Cards.Remove(card);
             }
             return true;
         }
@@ -241,10 +260,10 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual void RemoveCard(int id)
     {
-        var card = property.Cards.Find(i => i.id == id);
+        var card = playerAssets.Cards.Find(i => i.id == id);
         if (card != null)
         {
-            property.Cards.Remove(card);
+            playerAssets.Cards.Remove(card);
         }
     }
 
@@ -253,7 +272,7 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual bool HasCard(int id)
     {
-        var card = property.Cards.Find(i => i.id == id);
+        var card = playerAssets.Cards.Find(i => i.id == id);
         return card != null;
     }
 
@@ -266,6 +285,6 @@ public class PlayerModel : PlayerModelABS
         icon = string.Empty;
         currentGridId = 0;
         playerAction = PlayerAction.Idle;
-        property?.Reset();
+        playerAssets?.Reset();
     }
 }

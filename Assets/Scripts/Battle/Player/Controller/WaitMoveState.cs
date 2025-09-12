@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Core.Mgr;
 using Core.Table;
 using Core.Utils;
@@ -7,6 +8,13 @@ namespace Battle.Player
     // 等待移动状态（WaitMove）
     public class WaitMoveState : IPlayerState
     {
+        public void Enter(PlayerModel player)
+        {
+            // 进入等待移动状态时的逻辑
+            // 例如，显示可移动范围等
+            if (player.MovedPath.Count == 0 || player.MovedPath[^1] != player.CurrentGridId)
+                player.MovedPath.Add(player.CurrentGridId);
+        }
         public bool HandleMoveDirection(PlayerModel player, Direction direction)
         {
             // 实现方向移动逻辑
@@ -50,6 +58,7 @@ namespace Battle.Player
             {
                 var path = PathFinder.FindShortestPath(player.CurrentGridId, gridId);
                 player.MovePath = path.StationIds;
+                player.MovePath.RemoveAt(0); // 移除当前格子
                 player.NextGridId = path.StationIds[0];
                 player.StateMachine.ChangeState(PlayerAction.Moving);
                 return true;

@@ -12,6 +12,8 @@ namespace Core.Table
 		public string name;
 		// 公司描述
 		public string desc;
+		// 房产类型（农业等
+		public string type;
 		// 股份价格(万)
 		public int money;
 		// 收益比例(%)

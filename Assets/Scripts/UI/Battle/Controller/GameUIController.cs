@@ -14,10 +14,6 @@ public class GameUIController : MonoBehaviour
     private PlayerViewModel playerViewModel;
     public event Action OnUpdateUI;
     public event Action<string> OnShowMessage;
-    /// <summary>
-    /// UI状态变化事件
-    /// </summary>
-    // public event Action<UIState> OnChangeUIState;
 
     void Start()
     {
@@ -46,6 +42,23 @@ public class GameUIController : MonoBehaviour
     public PlayerModel GetCurrentPlayerModel()
     {
         return PlayerManager.Instance.CurrentPlayer;
+    }
+
+    public string GetCurrentPlayerName()
+    {
+        return GetCurrentPlayerModel().CharacterName;
+    }
+
+    // 
+    public PlayerAssets GetCurrentPlayerProperty()
+    {
+        return GetCurrentPlayerModel().PlayerAssets;
+    }
+
+    /// 是否已经被买过了
+    public bool IsBeBuyCompany(int companyId)
+    {
+        return PlayerManager.Instance.StockMap.ContainsKey(companyId);
     }
 
     /// 当前站点信息获取
@@ -113,10 +126,23 @@ public class GameUIController : MonoBehaviour
         return result.StepCount;
     }
 
-    public bool IsBeSellCompany(int companyId)
+    /// <summary>
+    /// 获取最短路径的引导格子
+    /// </summary>
+    /// <returns></returns>
+    public List<int> GetNearestGrids()
     {
-        PlayerManager.Instance.StockMap.TryGetValue(companyId, out var stock);
-        return stock != null;
+        var paths = PathFinder.FindAllShortestPaths(GetCurrentPlayerModel().CurrentGridId, GetDestStationGridID());
+        var nearestGrids = new List<int>();
+        foreach (var path in paths)
+        {
+            if (path.Found)
+            {
+                Debug.Log($"path.StepCount: {path.StepCount}");
+                nearestGrids.Add(path.StationIds[1]);
+            }
+        }
+        return nearestGrids;
     }
 
     ///—————————————————————— UI业务逻辑接口 ———————————————————
@@ -126,12 +152,15 @@ public class GameUIController : MonoBehaviour
     public int RollDice()
     {
         int result = playerViewModel.RollDice();
-        // OnChangeUIState?.Invoke(UIState.Move);
         return result;
     }
 
+    public void UseCard(int cardOnlyId)
+    {
+        playerViewModel.UseCard(cardOnlyId);
+    }
+
     /// EndDecide接口
-    /// 
     public void PlayTurn()
     {
         RoundManager.Instance.PlayerNext();
@@ -168,50 +197,34 @@ public class GameUIController : MonoBehaviour
         switch (action)
         {
             case PlayerAction.Idle:
-                // OnChangeUIState?.Invoke(UIState.Hide);
-                // UIManager.Instance.CloseAllPanels();
                 break;
             case PlayerAction.StartDecide:
-                // OnChangeUIState?.Invoke(UIState.StartDecide);
                 UIManager.Instance.OpenUI(UIName.StartDecide);
                 break;
             case PlayerAction.WaitMove:
                 UIManager.Instance.OpenUI(UIName.Move);
-                // OnChangeUIState?.Invoke(UIState.Move);
                 break;
             case PlayerAction.EndDecide:
                 GridCfgTable curGridCfg = ConfigManager.GetConfig<GridCfgTable>(GetCurrentPlayerModel().CurrentGridId);
                 switch (curGridCfg.type)
                 {
                     case GridTypeEnum.城市:
-                        // OnChangeUIState?.Invoke(UIState.CityGrid);
                         UIManager.Instance.OpenUI(UIName.City);
                         break;
                     case GridTypeEnum.金钱:
-                        UIManager.Instance.OpenUI(UIName.Money);
+                        var curType = curGridCfg.arg == "+"?MoneyType.Income:MoneyType.Expense;
+                        UIManager.Instance.OpenUI(UIName.Money, new object[] { curType });
                         break;
                     case GridTypeEnum.卡牌:
                         UIManager.Instance.OpenUI(UIName.Card);
                         break;
-                    // case GridTypeEnum.彩票:
-                    //     OnChangeUIState?.Invoke(UIState.MoneyGrid);
-                    //     break;
-                    // case GridTypeEnum.传送:
-                    //     OnChangeUIState?.Invoke(UIState.StartDecide);
-                    //     break;
-                    // case GridTypeEnum.商店:
-                    //     OnChangeUIState?.Invoke(UIState.StartDecide);   
-                    //     break;
-                    // case GridTypeEnum.事件:
-                    //     OnChangeUIState?.Invoke(UIState.StartDecide);
-                    //     break;
                     default:
-                        // OnChangeUIState?.Invoke(UIState.Hide);
+                        Debug.LogWarning($"未知格子类型: {curGridCfg.type}");
                         break;
                 }
                 break;
             default:
-                // OnChangeUIState?.Invoke(UIState.Hide);
+                Debug.LogWarning($"未知角色状态类型: {action}");
                 break;
         }
     }

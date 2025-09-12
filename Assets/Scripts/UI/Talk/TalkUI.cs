@@ -23,6 +23,12 @@ public class TalkUI : MonoBehaviour
     public void SetMessage(string args)
     {
         talkInfo = args.Split('|').ToList();
+        isPlayWait = true;
+    }
+
+    public void SetPlayWait(bool value)
+    {
+        isPlayWait = value;
     }
 
     public void Play()

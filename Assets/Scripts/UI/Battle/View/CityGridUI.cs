@@ -101,20 +101,32 @@ public class CityGridUI : TalkBaseUI
             companyUI.OnMouseClickAction += OnCompanyMouseClick;
             companyUI.SetData(companyTable, uiCtrl);
         }
+        cityNameText.text = uiCtrl.GetCurStationName();
+        playerNameText.text = uiCtrl.GetCurrentPlayerName();
+        playerMoneyText.text = uiCtrl.GetCurrentPlayerProperty().Money+"万";
     }
 
     protected override void UpdateUI()
     {
-        cityNameText.text = uiCtrl.GetCurStationName();
-        playerNameText.text = uiCtrl.GetCurrentPlayerModel().CharacterName;
-        playerMoneyText.text = uiCtrl.GetCurrentPlayerModel().PlayerProperty.Money + "万";
-        // var companies = uiCtrl.GetCurStationCompanies(); // 初始化
-        // foreach (var companyUI in companyPanel.GetComponentsInChildren<CityCompanyUI>())
-        // {
-        //     companyUI.OnMouseOverAction += OnCompanyMouseOver;
-        //     companyUI.OnMouseClickAction += OnCompanyMouseClick;
-        //     companyUI.gameObject.SetActive(false);
-        // }
+        var companies = uiCtrl.GetCurStationCompanies(); // 初始化
+        foreach (var companyTable in companies)
+        {
+            Transform childTransform = null;
+            foreach (Transform child in companyScrollRect.content)
+            {
+                if (child.name == $"Company_{companyTable.ID}")
+                {
+                    childTransform = child;
+                    break;
+                }
+            }
+            if (childTransform != null)
+            {
+                var companyUI = childTransform.gameObject.GetComponent<CityCompanyUI>();
+                companyUI.SetData(companyTable);
+            }
+        }
+        playerMoneyText.text = uiCtrl.GetCurrentPlayerProperty().Money+"万";
     }
 
     private void ChangeState(CityGridState newState)
@@ -161,20 +173,14 @@ public class CityGridUI : TalkBaseUI
     private void OnCompanyMouseOver(CompanyCfgTable companyTable)
     {
         // 显示提示信息
-        talkUI.SetMessage($"{companyTable.name}\n[公司类型尚未配置]\n预计收益{companyTable.money * companyTable.ratio / 100}万!");
-        talkUI.Play();
+        OnShowMessage($"{companyTable.name}\n[公司类型尚未配置]\n预计收益{companyTable.money * companyTable.ratio / 100}万!");
+        talkUI.SetPlayWait(false);
     }
 
     private void OnCompanyMouseClick(CompanyCfgTable companyTable)
     {
         // 购买公司
         uiCtrl.BuyCompany(companyTable);
-    }
-
-    protected override void OnShowMessage(string message)
-    {
-        talkUI.SetMessage(message);
-        talkUI.Play();
     }
 
 }

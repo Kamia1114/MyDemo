@@ -1,8 +1,14 @@
 [
   {
-    "id": 1,
+    "ID": 1,
     "key": "Settlement",
-    "value": "3",
+    "value": "6",
     "des": "结算周期"
+  },
+  {
+    "ID": 2,
+    "key": "StartPoint",
+    "value": "1001",
+    "des": "起点gridID"
   }
 ]

@@ -64,7 +64,6 @@
     <Analyzer Include="D:\B_Software\Unity\2022.3.62f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Battle\Event\temp\MoveEvent2.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\View\MoveUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\PlayerStateMachine.cs" />
     <Compile Include="Assets\Scripts\Core\Table\CityCfgTable.cs" />
@@ -82,15 +81,15 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Core\Mgr\GameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\MoveEvent.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Model\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\Battle\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\FaceCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\Base\PersistentEffectState.cs" />
     <Compile Include="Assets\Scripts\Battle\Manager\CardManager.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\GameUtils.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\UI\Battle\View\CardGridUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\View\StartDecideUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\View\Comp\GridUI.cs" />
@@ -112,7 +111,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Core\Mgr\CreateManager.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\Base\BaseEvent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\FixedAngleDragCmera.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\View\PlayerView.cs" />
@@ -137,6 +135,7 @@
     <Compile Include="Assets\Scripts\Core\Utils\PathUtils.cs" />
     <Compile Include="Assets\Scripts\Battle\Manager\GridManager.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\IdleState.cs" />
+    <Compile Include="Assets\Scripts\UI\Battle\View\MoneyGridUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\ViewModel\GridViewModel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\UI\BaseUI.cs" />
@@ -144,7 +143,6 @@
     <Compile Include="Assets\Scripts\Core\Table\GameCfgTable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\Base\EndEffectState.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\StartDecideState.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\Model\abstrace\GridModelABS.cs" />
     <Compile Include="Assets\Scripts\UI\Talk\TalkBaseUI.cs" />
@@ -152,18 +150,19 @@
     <Compile Include="Assets\Scripts\Core\Config\GameConfig.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\MovingState.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\EndDecideState.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\Base\OnceEffectState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Core\Mgr\UIManager.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\View\Component\CityCompanyUI.cs" />
+    <Compile Include="Assets\Scripts\Battle\Card\Model\CardModel.cs" />
+    <Compile Include="Assets\Scripts\Battle\Event\EffectExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\Enum\ConfigEnum.cs" />
     <Compile Include="Assets\Scripts\Core\Config\UIConfig.cs" />
+    <Compile Include="Assets\Scripts\Battle\Event\ConditionChecker.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\Controller\GameUIController.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\FollowUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\View\GridView.cs" />
     <Compile Include="Assets\Scripts\Core\Table\GridCfgTable.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\UIRoundedImage.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\temp\BaseEvent2.cs" />
     <Compile Include="Assets\Scripts\Core\Config\GameEvent.cs" />
     <Compile Include="Assets\Scripts\Battle\Card\Controller\Event\MoveEvent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />

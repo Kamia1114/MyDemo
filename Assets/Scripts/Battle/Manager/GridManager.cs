@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using Battle.Grid;
 using Core.Enum;
 using Core.Mgr;
@@ -27,10 +28,13 @@ namespace Battle.Manager
         public GameObject gridContainer;
         public GameObject gridUIContainer;
         public GameObject gridLineContainer;
-        private int stationDestGridID = 1001; // 默认初始目标站点
+        // 终点
+        private int stationDestGridID = 0;
         public int StationDestGridID { get { return stationDestGridID; } }
-        private readonly Dictionary<int, GridModel> modelMap = new();
-        public Dictionary<int, GridModel> ModelMap { get { return modelMap; } }
+        private readonly Dictionary<int, GridModel> gridModelMap = new();
+        private readonly Dictionary<int, GameObject> gridItemMap = new();
+        private readonly Dictionary<int, GameObject> tipGridItemMap = new();
+        public Dictionary<int, GridModel> ModelMap { get { return gridModelMap; } }
         public event Action OnUpdateStationDest;
         public static GridManager Instance { get; private set; }
         void Awake()
@@ -71,18 +75,17 @@ namespace Battle.Manager
                 return;
             }
             // 创建格子
-            Dictionary<int, GridCfgTable> gridCfgMap = ConfigManager.LoadConfig<GridCfgTable>("GridCfg");
-            Dictionary<int, GameObject> gridItemMap = new();
+            Dictionary<int, GridCfgTable> gridCfgMap = ConfigManager.GetAllConfig<GridCfgTable>();
             foreach (var kv in gridCfgMap)
             {
                 GridCfgTable cfgData = kv.Value;
                 GridModel model = new(cfgData);
-                modelMap.Add(model.GridId, model);
+                gridModelMap.Add(model.GridId, model);
                 var grid = Instantiate(gridCell, gridContainer.transform, false);
                 grid.name = $"Grid_{model.GridId}";
                 GridItem gridItem = grid.GetComponent<GridItem>();
                 gridItem.SetData(model.GridId, gridViewModel);
-                gridItemMap[model.GridId] = grid;
+                gridItemMap.Add(model.GridId, grid);
             }
             CreateGridUIItem(gridItemMap);
             PathFinder.Initialize(gridCfgMap);
@@ -97,7 +100,7 @@ namespace Battle.Manager
                 return;
             }
             ///创建格子UI
-            foreach (var kv in modelMap)
+            foreach (var kv in gridModelMap)
             {
                 GridModel model = kv.Value;
                 var cellUIItem = Instantiate(gridUI, gridUIContainer.transform, false);
@@ -117,7 +120,7 @@ namespace Battle.Manager
         private void ShowGridLines()
         {
             GameObject lineObject = CreateManager.CreateLineRenderer();
-            foreach (var kv in modelMap)
+            foreach (var kv in gridModelMap)
             {
                 int curGridID = kv.Key;
                 var model = kv.Value;
@@ -151,12 +154,71 @@ namespace Battle.Manager
         /// <returns></returns>
         public void RandomNextStationDest()
         {
-            var keys = new List<int>(modelMap.Keys);
-            keys.Remove(1001);
+            int startPoint = int.Parse(ConfigManager.GetGameConfig("StartPoint"));
+            var keys = new List<int>(gridModelMap.Keys);
+            keys.Remove(startPoint);
             if (keys.Count == 0) return;
             int idx = UnityEngine.Random.Range(0, keys.Count);
+            if (stationDestGridID != 0)
+            {
+                ShowOrHideHalo(gridItemMap[stationDestGridID], false);
+            }
             stationDestGridID = keys[idx];
+            ShowOrHideHalo(gridItemMap[stationDestGridID], true);
+
             OnUpdateStationDest?.Invoke();
+        }
+
+        private void ShowOrHideHalo(GameObject gridItem, bool show)
+        {
+            var halo = gridItem.GetComponent("Halo");
+            if (halo != null)
+            {
+                halo.GetType().GetProperty("enabled").SetValue(halo, show);
+            }
+        }
+
+        public void ShowNearGridTip(PlayerModel playerModel)
+        {
+            if (playerModel.CurrentGridId == stationDestGridID) return;
+            var paths = PathFinder.FindAllShortestPaths(playerModel.CurrentGridId, stationDestGridID);
+            var nearestGrids = new List<int>();
+            foreach (var path in paths)
+            {
+                if (path.Found)
+                {
+                    Debug.Log($"path.StepCount: {path.StepCount}");
+                    if (!nearestGrids.Contains(path.StationIds[1]))
+                    {
+                        nearestGrids.Add(path.StationIds[1]);
+                    }
+                }
+            }
+            foreach (var kv in tipGridItemMap)
+            {
+                Transform tip = kv.Value.transform.Find("tip");
+                tip.gameObject.SetActive(false);
+            }
+            tipGridItemMap.Clear();
+            nearestGrids.ForEach(gridId =>
+            {
+                if (gridItemMap.TryGetValue(gridId, out var gridItem))
+                {
+                    Transform tip = gridItem.transform.Find("tip");
+                    tip.gameObject.SetActive(true);
+                    tipGridItemMap.Add(gridId, gridItem);
+                }
+            });
+        }
+
+        public void HideNearGridTip()
+        {
+            foreach (var kv in tipGridItemMap)
+            {
+                Transform tip = kv.Value.transform.Find("tip");
+                tip.gameObject.SetActive(false);
+            }
+            tipGridItemMap.Clear();
         }
 
         public void OnHandlerEvent(GridEventObject eventData)

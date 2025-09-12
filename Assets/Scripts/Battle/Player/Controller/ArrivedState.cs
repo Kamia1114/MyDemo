@@ -30,14 +30,14 @@ namespace Battle.Player
                 }
             }
             player.CurrentGridId = player.NextGridId;
-            if (player.MovePath != null && player.MovePath.Count > 0)
+            if (player.MovePath.Count > 0)
             {
                 player.MovePath.RemoveAt(0);
             }
             // 剩余步数没走完
             if (player.RemainSteps > 0)
             {
-                if (player.MovePath != null && player.MovePath.Count > 0)
+                if (player.MovePath.Count > 0)
                 {
                     // 移动路径还有未走完的，继续移动
                     player.NextGridId = player.MovePath[0];
@@ -47,6 +47,7 @@ namespace Battle.Player
                 {
                     // 目标路径走完了，步数没用完，等待操作移动
                     player.StateMachine.ChangeState(PlayerAction.WaitMove);
+                    BattleManager.Instance.UpdateNearGridTip();
                 }
             }
             else

@@ -21,7 +21,7 @@ public enum PlayerAction
 /// 道具类
 /// </summary>
 // [Serializable]
-public class Card
+public class PlayerCard
 {
     public int id;             // 道具唯一ID
     public int cardId;       // 卡牌配置ID
@@ -42,16 +42,16 @@ public class Stock
 /// 玩家资产类
 /// </summary>
 /// [Serializable]
-public class Property
+public class PlayerAssets
 {
     public int Money; // 金钱
-    public List<Card> Cards; // 拥有的卡牌
+    public List<PlayerCard> Cards; // 拥有的卡牌
     public List<Stock> OwnedCompanys; // 拥有的公司股票
 
-    public Property()
+    public PlayerAssets()
     {
         Money = 0;
-        Cards = new List<Card>();
+        Cards = new List<PlayerCard>();
         OwnedCompanys = new List<Stock>();
     }
 
@@ -84,7 +84,7 @@ public abstract class PlayerModelABS
     protected List<int> movePath;      // 本次将移动路径
     protected int remainSteps;         // 剩余移动步数
     [Header("资产信息")]
-    protected Property property; // 玩家资产
+    protected PlayerAssets playerAssets; // 玩家资产
     [Header("游戏状态信息")]
     protected PlayerAction playerAction;      // 行动状态
 
@@ -97,7 +97,7 @@ public abstract class PlayerModelABS
     public string Icon => icon;
     public bool IsAI => isAI;
     public List<int> DiceList => diceList;
-    public Property PlayerProperty => property;
+    public PlayerAssets PlayerAssets => playerAssets;
 
     #endregion
 }

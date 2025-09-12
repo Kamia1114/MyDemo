@@ -14,19 +14,21 @@ enum StartDecideUIState
     Option
 }
 
-public class StartDecideUI : BaseUI
+public class StartDecideUI : TalkBaseUI
 {
     [SerializeField]
     private Transform uiTop;
 
-    [SerializeField]
-    private Transform uiBottom;
+    // [SerializeField]
+    // private Transform uiBottom;
 
     [SerializeField]
     private Transform uiDecide;
 
     [SerializeField]
     private Transform uiDice;
+    [SerializeField]
+    private Transform uiCard;
 
     private TextMeshProUGUI stationNameText;
     private TextMeshProUGUI targetStationNameText;
@@ -47,8 +49,9 @@ public class StartDecideUI : BaseUI
 
     private bool isRolledDice = false;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         InitUI();
     }
 
@@ -57,14 +60,9 @@ public class StartDecideUI : BaseUI
         InitEvent();
     }
 
-    void OnEnable()
-    {
-        isRolledDice = false;
-    }
-
     void Update()
     {
-        if (curDiceText != null && isRolledDice == false && curUIState == StartDecideUIState.RollDice)
+        if (curUIState == StartDecideUIState.RollDice && isRolledDice == false)
         {
             if (Time.time - playRandomDiceTime > playRandomDiceInterval)
             {
@@ -101,43 +99,91 @@ public class StartDecideUI : BaseUI
         cardButton = uiDecide.Find("btn_card").GetComponent<Button>();
         operationButton = uiDecide.Find("btn_operation").GetComponent<Button>();
         curDiceText = uiDice.Find("txt_dice").GetComponent<TextMeshProUGUI>();
-        uiDice.gameObject.SetActive(false);
+        ChangeUIState(StartDecideUIState.Main);
     }
 
     private void InitEvent()
     {
         // 初始化事件
         GameUtils.BindButton(diceButton, ChangeUIState, StartDecideUIState.RollDice);
+        GameUtils.BindButton(cardButton, ChangeUIState, StartDecideUIState.Card);
         // viewModel.OnUpdateUI += UpdateUI;
     }
 
     protected override void UpdateUI()
     {
-        if (uiCtrl == null) return;
         PlayerModel currentPlayer = uiCtrl.GetCurrentPlayerModel();
-        if (currentPlayer == null) return;
         stationNameText.text = uiCtrl.GetCurStationName();
         targetStationNameText.text = uiCtrl.GetDestStationName();
         targetDistanceText.text = uiCtrl.GetTargetSteps().ToString();
         curYearText.text = uiCtrl.Year;
         curMonthText.text = uiCtrl.Month;
-        curMoneyText.text = currentPlayer.PlayerProperty.Money + "万";
+        curMoneyText.text = currentPlayer.PlayerAssets.Money + "万";
+        //卡牌
+        var cards = currentPlayer.PlayerAssets.Cards;
+        GameObject content = uiCard.GetComponent<ScrollRect>().content.gameObject;
+        // content.transform.DetachChildren();
+        for (int i = content.transform.childCount - 1; i >= 0; i--)
+        {
+            Destroy(content.transform.GetChild(i).gameObject);
+        }
+        if (cards.Count > 0)
+        {
+            GameObject cardPrefab = uiCard.transform.Find("item_card").gameObject;
+            cardPrefab.SetActive(false);
+            foreach (var card in cards)
+            {
+                Debug.Log($"卡牌ID: {card.cardId}, 数量: {card.times}");
+                var cardCfg = ConfigManager.GetConfig<CardCfgTable>(card.cardId);
+                if (cardCfg != null)
+                {
+                    GameObject item = Instantiate(cardPrefab, content.transform, false);
+                    item.name = $"Card_{card.id}";
+                    item.SetActive(true);
+                    TextMeshProUGUI cardText = item.transform.Find("txt_name").GetComponent<TextMeshProUGUI>();
+                    cardText.text = cardCfg.name;
+                }
+            }
+        }
+    }
+
+    public void UseCard(Button btn)
+    {
+        // 打开卡牌界面
+        int id = int.Parse(btn.name.Split('_')[1]);
+        uiCtrl.UseCard(id);
     }
 
     private void ChangeUIState(StartDecideUIState newState)
     {
         curUIState = newState;
-        if (newState == StartDecideUIState.Main)
+        switch (newState)
         {
-            uiTop.gameObject.SetActive(true);
-            uiDecide.gameObject.SetActive(true);
-            uiDice.gameObject.SetActive(false);
-        }
-        else if (newState == StartDecideUIState.RollDice)
-        {
-            uiTop.gameObject.SetActive(false);
-            uiDecide.gameObject.SetActive(false);
-            uiDice.gameObject.SetActive(true);
+            case StartDecideUIState.Main:
+                uiTop.gameObject.SetActive(true);
+                uiDecide.gameObject.SetActive(true);
+                uiDice.gameObject.SetActive(false);
+                uiCard.gameObject.SetActive(false);
+                talkUI.gameObject.SetActive(false);
+                break;
+            case StartDecideUIState.RollDice:
+                uiTop.gameObject.SetActive(false);
+                uiDecide.gameObject.SetActive(false);
+                uiDice.gameObject.SetActive(true);
+                isRolledDice = false;
+                playRandomDiceTime = Time.time;
+                break;
+            case StartDecideUIState.Card:
+                // 打开卡牌界面
+                uiTop.gameObject.SetActive(false);
+                uiCard.gameObject.SetActive(true);
+                talkUI.gameObject.SetActive(true);
+                break;
+            case StartDecideUIState.Option:
+                // 打开选项界面
+                break;
+            default:
+                break;
         }
     }
 
@@ -172,7 +218,6 @@ public class StartDecideUI : BaseUI
         {
             case StartDecideUIState.Main:
                 // 主界面点击处理
-                isRolledDice = false;
                 break;
             case StartDecideUIState.RollDice:
                 // 掷骰子界面点击处理，返回主界面

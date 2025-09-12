@@ -86,6 +86,22 @@ namespace Battle.Player
         {
             playerManager.CurrentPlayer.StateMachine.HandleMoveToGrid(gridId);
         }
+        
+        public void UseCard(int cardOnlyId)
+        {
+            string message = "";
+            var isUse = playerManager.PlayerUseCard(cardOnlyId);
+            if (isUse)
+            {
+                OnUpdateUI?.Invoke();
+                message = "卡牌使用成功";
+            }
+            else
+            {
+                message = "卡牌使用失败";
+            }
+            OnShowMessage?.Invoke(message);
+        }
 
         public void BuyCompany(CompanyCfgTable companyTable)
         {
@@ -95,10 +111,10 @@ namespace Battle.Player
                 Debug.LogWarning("该公司股票已被购买");
                 message = "该公司股票已被购买";
             }
-            if (PlayerManager.Instance.CurrentPlayer.PlayerProperty.Money < companyTable.money)
+            else if (PlayerManager.Instance.CurrentPlayer.PlayerAssets.Money < companyTable.money)
             {
                 Debug.LogWarning("钱不够，无法购买");
-                if (companyTable.money - playerManager.CurrentPlayer.PlayerProperty.Money < 5000)
+                if (companyTable.money - playerManager.CurrentPlayer.PlayerAssets.Money < 5000)
                 {
                     message = $"{playerManager.CurrentPlayer.CharacterName}!\n钱不够了\n再攒攒吧";
                 }

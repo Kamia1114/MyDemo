@@ -176,17 +176,26 @@ namespace Battle.Manager
             OnCurPlayerChanged?.Invoke();
         }
 
+        public bool PlayerUseCard(int cardOnlyId)
+        {
+            if (currentPlayer?.UseCard(cardOnlyId) == true)
+            {
+                // 使用成功
+                return true;
+            }
+            return false;
+        }
 
         public void HandlePlayerArrived()
         {
             Debug.Log("玩家到达目的地，通知回合管理器");
-            if (currentPlayer.PlayerProperty.Money < 0)
+            if (currentPlayer.PlayerAssets.Money < 0)
             {
-                currentPlayer.PlayerProperty.Money = 0;
+                currentPlayer.PlayerAssets.Money = 0;
             }
             else
             {
-                currentPlayer.PlayerProperty.Money += 2000; // 到达目的地奖励200
+                currentPlayer.PlayerAssets.Money += 2000; // 到达目的地奖励200
             }
         }
 
@@ -196,7 +205,8 @@ namespace Battle.Manager
         /// <param name="companyTable"></param>
         public bool PlayerBuyCompany(CompanyCfgTable companyTable)
         {
-            var curCityId = ConfigManager.GetConfig<CityCfgTable>(currentPlayer.CurrentGridId).ID;
+            var curGridTb = ConfigManager.GetConfig<GridCfgTable>(currentPlayer.CurrentGridId);
+            var curCityId = ConfigManager.GetConfig<CityCfgTable>(curGridTb.cfgID).ID;
             Stock stock = new()
             {
                 id = companyTable.ID,
@@ -230,7 +240,7 @@ namespace Battle.Manager
             foreach (var model in GetAllPlayerModels())
             {
                 int totalIncome = 0;
-                foreach (var stock in model.PlayerProperty.OwnedCompanys)
+                foreach (var stock in model.PlayerAssets.OwnedCompanys)
                 {
                     int income = (int)(stock.money * stock.ratio);
                     totalIncome += income;

@@ -65,7 +65,7 @@ namespace Core.Mgr
 
         }
 
-        private void InitGame()
+        private async void InitGame()
         {
             currentGameMode = GameMode.MODE_1YEAR; // 默认游戏模式为一年
             SetPlayerCount(4); // 默认玩家数量为4
@@ -74,6 +74,7 @@ namespace Core.Mgr
             SetPlayerID(1, 88002, 103); // 玩家2 ID
             SetPlayerID(2, 222, 104, true); // 玩家3 ID
             SetPlayerID(3, 333, 106, true); // 玩家4 ID
+            await ConfigManager.Init();
         }
 
         public void StartGame()

@@ -161,5 +161,62 @@ namespace Core.Utils
             var path = FindShortestPath(startId, targetId);
             return path.Found ? path.StepCount : -1;
         }
+
+        /// <summary>
+        /// 获取所有最短路径（BFS所有分支）
+        /// </summary>
+        public static List<PathResult> FindAllShortestPaths(int startId, int targetId)
+        {
+            var results = new List<PathResult>();
+            if (!_stations.ContainsKey(startId) || !_stations.ContainsKey(targetId))
+                return results;
+            if (startId == targetId)
+            {
+                results.Add(new PathResult
+                {
+                    Found = true,
+                    StepCount = 0,
+                    StationIds = new List<int> { startId },
+                    StationNames = new List<string> { _stations[startId].name }
+                });
+                return results;
+            }
+            // BFS记录所有最短路径
+            var queue = new Queue<List<int>>();
+            var minStep = int.MaxValue;
+            queue.Enqueue(new List<int> { startId });
+            while (queue.Count > 0)
+            {
+                var path = queue.Dequeue();
+                int last = path[^1];
+                if (path.Count > minStep) continue;
+                if (last == targetId)
+                {
+                    if (path.Count < minStep)
+                    {
+                        results.Clear();
+                        minStep = path.Count;
+                    }
+                    results.Add(new PathResult
+                    {
+                        Found = true,
+                        StationIds = new List<int>(path),
+                        StationNames = path.Select(id => _stations[id].name).ToList(),
+                        StepCount = path.Count - 1
+                    });
+                    continue;
+                }
+                foreach (var neighbor in _stations[last].links)
+                {
+                    if (!path.Contains(neighbor))
+                    {
+                        var newPath = new List<int>(path) { neighbor };
+                        queue.Enqueue(newPath);
+                    }
+                }
+            }
+            return results;
+        }
+
     }
 }

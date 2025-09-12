@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.14117648, b: 1, a: 0.78039217}
+  m_Color: {r: 1, g: 0.8217412, b: 0, a: 0.78039217}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1252,9 +1252,9 @@ GameObject:
   - component: {fileID: 3135396781182558304}
   - component: {fileID: 749315467443744492}
   - component: {fileID: 4064427750500621405}
-  - component: {fileID: 7664363519877835908}
+  - component: {fileID: 2478353200123833609}
   m_Layer: 0
-  m_Name: MoneyGridUI
+  m_Name: CardGridUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7664363519877835908
+--- !u!114 &2478353200123833609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1331,12 +1331,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6705009873547069269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db277bf52f74aab4a91a8098613555af, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e5238913de84cf4badf6aa0e64dc7bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   uiTop: {fileID: 3985235778561793455}
-  randomMoneyText: {fileID: 1575846495103068125}
-  moneyBgImage: {fileID: 7681858148644873206}
+  randomCardNameText: {fileID: 1575846495103068125}
 --- !u!1 &7117239353210850892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,7 +1551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "888\u4E07"
+  m_text: "\u5361\u724C\u540D\u79F0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f314c83318de174ab5f665c1264bde9, type: 2}
   m_sharedMaterial: {fileID: 4771164036128238844, guid: 1f314c83318de174ab5f665c1264bde9, type: 2}

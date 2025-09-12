@@ -81,13 +81,13 @@ namespace Core.Mgr
 
             // 实例化面板
             GameObject panel = Instantiate(panelPrefab, panelParent);
-            panel.name = panelPrefab.name; // 保持名字一致
+            panel.name = panelName.ToString(); // 保持名字一致
             
             if (panel.TryGetComponent<BaseUI>(out var btBaseUI))
             {
                 btBaseUI.SetUIName(panelName);
-                btBaseUI.Init(args);
                 btBaseUI.SetViewModel(transform.GetComponent<GameUIController>());
+                btBaseUI.Init(args);
                 btBaseUI.Show();
             } else if (panel.TryGetComponent<BaseUI>(out var baseUI))
             {

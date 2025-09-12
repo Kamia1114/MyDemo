@@ -263,6 +263,22 @@ namespace Core.Mgr
             return LoadConfig<T>(configName).TryGetValue(id, out var config) ? config : null;
         }
 
+        public static Dictionary<int, T> GetAllConfig<T>() where T : class
+        {
+            string configName = typeof(T).Name.Replace("Table", "");
+            if (allConfigs.TryGetValue(typeof(T), out var configDict))
+            {
+                var result = new Dictionary<int, T>();
+                foreach (var kv in configDict)
+                {
+                    if (kv.Value is T t)
+                        result[kv.Key] = t;
+                }
+                return result;
+            }
+            return LoadConfig<T>(configName);
+        }
+
         public static T UnloadConfig<T>() where T : class
         {
             if (allConfigs.ContainsKey(typeof(T)))
@@ -298,7 +314,7 @@ namespace Core.Mgr
         /// </summary>
         public static string GetGameConfig(string keyName)
         {
-            var gameCfgs = LoadConfig<GameCfgTable>("GameCfg");
+            var gameCfgs = GetAllConfig<GameCfgTable>();
             foreach (var cfg in gameCfgs.Values)
             {
                 if (cfg.key == keyName)

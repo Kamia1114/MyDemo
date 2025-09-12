@@ -7,7 +7,7 @@ namespace Core.Table
 	public class GameCfgTable
 	{
 		// 唯一id
-		public int id;
+		public int ID;
 		// 参数名
 		public string key;
 		// 参数值

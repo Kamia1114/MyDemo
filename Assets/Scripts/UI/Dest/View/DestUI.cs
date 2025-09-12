@@ -13,7 +13,6 @@ public class DestUI : TalkBaseUI
     {
         destNameText.text = GridManager.Instance.StationDestGridID.ToString();
         OnShowMessage($"恭喜你到达了目的地|{destNameText.text}|请点击屏幕继续");
-        Play();
     }
 
     protected override void OnTalkComplete()

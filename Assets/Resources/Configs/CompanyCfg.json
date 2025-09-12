@@ -3,5005 +3,5720 @@
     "ID": 20187,
     "name": "红烧肉店",
     "desc": "无",
-    "money": 3000000,
+    "type": "暂无",
+    "money": 300,
     "ratio": 200
   },
   {
     "ID": 20188,
     "name": "腌笃鲜店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 200
   },
   {
     "ID": 20189,
     "name": "排骨年糕店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 200
   },
   {
     "ID": 20190,
     "name": "生煎包子铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20191,
     "name": "蟹黄面馆",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 100
   },
   {
     "ID": 20192,
     "name": "蟹粉小笼包店",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 100
   },
   {
     "ID": 20193,
     "name": "上海在逃公主乐园",
     "desc": "",
-    "money": 5500000000,
+    "type": "",
+    "money": 550000,
     "ratio": 7
   },
   {
     "ID": 20194,
     "name": "东方明珠广播电视塔",
     "desc": "",
-    "money": 70000000000,
+    "type": "",
+    "money": 7000000,
     "ratio": 10
   },
   {
     "ID": 20593,
     "name": "鸭血粉丝汤店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20594,
     "name": "盐水鸭店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20595,
     "name": "金陵叉烤鸭店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20596,
     "name": "美龄粥铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20597,
     "name": "皮肚面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20598,
     "name": "桂花糖芋苗店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20599,
     "name": "雨花茶种植园",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 30
   },
   {
     "ID": 20600,
     "name": "南京云锦展览馆",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 30
   },
   {
     "ID": 20601,
     "name": "南京大屠杀遇难同胞纪念馆",
     "desc": "",
-    "money": 1213000000,
+    "type": "",
+    "money": 121300,
     "ratio": 5
   },
   {
     "ID": 20602,
     "name": "无锡小笼包子铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20603,
     "name": "无锡酱排骨店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 25
   },
   {
     "ID": 20604,
     "name": "玉兰饼铺",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 35
   },
   {
     "ID": 20605,
     "name": "豆腐花店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 60
   },
   {
     "ID": 20606,
     "name": "梅花糕店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20607,
     "name": "阳山水蜜桃林",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 6
   },
   {
     "ID": 20608,
     "name": "宜兴紫砂壶展览馆",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 3
   },
   {
     "ID": 20609,
     "name": "徐霞客旅游博物馆",
     "desc": "",
-    "money": 800000000,
+    "type": "",
+    "money": 80000,
     "ratio": 1
   },
   {
     "ID": 20610,
     "name": "地锅鸡店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 60
   },
   {
     "ID": 20611,
     "name": "蒜爆鱼庄",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 60
   },
   {
     "ID": 20612,
     "name": "把子肉店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 75
   },
   {
     "ID": 20613,
     "name": "特色烧烤店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20614,
     "name": "新沂水蜜桃林",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 5
   },
   {
     "ID": 20615,
     "name": "邳州银杏林",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 5
   },
   {
     "ID": 20616,
     "name": "汉高祖纪念馆",
     "desc": "",
-    "money": 1200000000,
+    "type": "",
+    "money": 120000,
     "ratio": 1
   },
   {
     "ID": 20617,
     "name": "常州大麻糕铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 20618,
     "name": "天目湖砂锅鱼头店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 80
   },
   {
     "ID": 20619,
     "name": "银丝面馆",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 80
   },
   {
     "ID": 20620,
     "name": "加蟹小笼包子铺",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20621,
     "name": "常州萝卜干加工厂",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 3
   },
   {
     "ID": 20622,
     "name": "金坛封缸甘露厂",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 3
   },
   {
     "ID": 20623,
     "name": "中华恐龙乐园",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 3
   },
   {
     "ID": 20624,
     "name": "松鼠桂鱼店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20625,
     "name": "蟹黄面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20626,
     "name": "生煎包子铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20627,
     "name": "梅花糕点铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20628,
     "name": "叫花鸡店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20629,
     "name": "阳澄湖大闸蟹养殖基地",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 10
   },
   {
     "ID": 20630,
     "name": "苏绣展览馆",
     "desc": "",
-    "money": 20000000,
+    "type": "",
+    "money": 2000,
     "ratio": 2
   },
   {
     "ID": 20631,
     "name": "桃花庵主纪念馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 1
   },
   {
     "ID": 20632,
     "name": "蟹黄汤包店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 60
   },
   {
     "ID": 20633,
     "name": "火饺店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 60
   },
   {
     "ID": 20634,
     "name": "冷蒸摊子",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 80
   },
   {
     "ID": 20635,
     "name": "清炖狼山鸡店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 88
   },
   {
     "ID": 20636,
     "name": "白汁鮰鱼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 90
   },
   {
     "ID": 20637,
     "name": "西亭脆饼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 90
   },
   {
     "ID": 20638,
     "name": "蓝印花布坊",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 20
   },
   {
     "ID": 20639,
     "name": "海肠捞饭店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20640,
     "name": "小鱼煎饼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20641,
     "name": "灌云豆丹虫虫店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20642,
     "name": "娃娃鱼红薯粉店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 200
   },
   {
     "ID": 20643,
     "name": "梭子蟹养殖基地",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 6
   },
   {
     "ID": 20644,
     "name": "花果山云雾茶园",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20645,
     "name": "软兜长鱼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20646,
     "name": "平桥豆腐店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20647,
     "name": "长鱼面",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20648,
     "name": "盱眙龙虾大排档",
     "desc": "",
-    "money": 1400000,
+    "type": "",
+    "money": 140,
     "ratio": 90
   },
   {
     "ID": 20649,
     "name": "淮安茶撒店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 90
   },
   {
     "ID": 20650,
     "name": "韩信兵法纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 20651,
     "name": "东台鱼汤面馆",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20652,
     "name": "建湖藕粉圆店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20653,
     "name": "鸡蛋饼摊",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20654,
     "name": "大纵湖醉蟹店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20655,
     "name": "东台西瓜田",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20656,
     "name": "狮子头店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20657,
     "name": "扬州炒饭店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20658,
     "name": "三丁包子铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 60
   },
   {
     "ID": 20659,
     "name": "烫干丝店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 60
   },
   {
     "ID": 20660,
     "name": "翡翠烧麦店",
     "desc": "",
-    "money": 4000000,
+    "type": "",
+    "money": 400,
     "ratio": 50
   },
   {
     "ID": 20661,
     "name": "千层油糕铺",
     "desc": "",
-    "money": 4000000,
+    "type": "",
+    "money": 400,
     "ratio": 50
   },
   {
     "ID": 20662,
     "name": "高邮咸鸭蛋加工厂",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 20663,
     "name": "锅盖面馆",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 85
   },
   {
     "ID": 20664,
     "name": "水晶肴肉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 85
   },
   {
     "ID": 20665,
     "name": "现炸里脊肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20666,
     "name": "拆烩鲢鱼头店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 120
   },
   {
     "ID": 20667,
     "name": "河豚鱼庄",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 200
   },
   {
     "ID": 20668,
     "name": "镇江香醋生产基地",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 8
   },
   {
     "ID": 20669,
     "name": "黄桥烧饼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 90
   },
   {
     "ID": 20670,
     "name": "宣堡小馄饨店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 90
   },
   {
     "ID": 20671,
     "name": "秧草包店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 90
   },
   {
     "ID": 20672,
     "name": "泰州鱼汤面馆",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20673,
     "name": "溱湖八仙宴店",
     "desc": "",
-    "money": 8000000,
+    "type": "",
+    "money": 800,
     "ratio": 80
   },
   {
     "ID": 20674,
     "name": "靖江肉脯店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 60
   },
   {
     "ID": 20675,
     "name": "施耐庵水浒纪念馆",
     "desc": "",
-    "money": 108000000,
+    "type": "",
+    "money": 10800,
     "ratio": 2
   },
   {
     "ID": 20676,
     "name": "车轮饼铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20677,
     "name": "软兜干丝店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20678,
     "name": "黄狗猪头肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20679,
     "name": "水晶山楂糕店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20680,
     "name": "新袁羊肉店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20681,
     "name": "五香大头菜加工厂",
     "desc": "",
-    "money": 30000000,
+    "type": "",
+    "money": 3000,
     "ratio": 2
   },
   {
     "ID": 20682,
     "name": "骆马湖银鱼养殖基地",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 3
   },
   {
     "ID": 20683,
     "name": "西湖醋鱼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 300
   },
   {
     "ID": 20684,
     "name": "东坡肉店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20685,
     "name": "片儿川店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20686,
     "name": "葱包烩店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20687,
     "name": "杭州小笼包子铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20688,
     "name": "西湖龙井茶园",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 6
   },
   {
     "ID": 20689,
     "name": "迦蓝房地产公司",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 2
   },
   {
     "ID": 20690,
     "name": "雷峰塔",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 2
   },
   {
     "ID": 20691,
     "name": "芝麻开门全球总部",
     "desc": "",
-    "money": 10000000000,
+    "type": "",
+    "money": 1000000,
     "ratio": 7
   },
   {
     "ID": 20692,
     "name": "宁波汤圆店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 35
   },
   {
     "ID": 20693,
     "name": "油赞子店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 35
   },
   {
     "ID": 20694,
     "name": "海鲜面店",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 50
   },
   {
     "ID": 20695,
     "name": "灰汁团铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20696,
     "name": "米馒头铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20697,
     "name": "臭冬瓜店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20698,
     "name": "梁山伯故里纪念馆",
     "desc": "",
-    "money": 210000000,
+    "type": "",
+    "money": 21000,
     "ratio": 2
   },
   {
     "ID": 20699,
     "name": "炒粉干店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 35
   },
   {
     "ID": 20700,
     "name": "芙蓉麦饼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 35
   },
   {
     "ID": 20701,
     "name": "清江猷蠓三鲜面馆",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 50
   },
   {
     "ID": 20702,
     "name": "糯米饭店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20703,
     "name": "灯盏糕店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20704,
     "name": "鱼饼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20705,
     "name": "鸭舌店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20706,
     "name": "雁荡山风景区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 20707,
     "name": "嘉兴粽子店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20708,
     "name": "烧麦铺子",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20709,
     "name": "红烧羊肉面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20710,
     "name": "鲜肉月饼店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20711,
     "name": "文虎酱鸭店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20712,
     "name": "海宁皮影戏剧院",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20713,
     "name": "桑蚕丝织技艺展览馆",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 1
   },
   {
     "ID": 20714,
     "name": "定胜糕铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20715,
     "name": "干挑面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20716,
     "name": "千张包店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20717,
     "name": "松毛汤包子铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20718,
     "name": "善琏湖笔墨宝店",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 20
   },
   {
     "ID": 20719,
     "name": "嵊州小笼包子铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 200
   },
   {
     "ID": 20720,
     "name": "绍兴臭豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 200
   },
   {
     "ID": 20721,
     "name": "绍三鲜店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 300
   },
   {
     "ID": 20722,
     "name": "黄酒棒冰铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 300
   },
   {
     "ID": 20723,
     "name": "面饽饽摊",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 300
   },
   {
     "ID": 20724,
     "name": "绍兴黄甘露厂",
     "desc": "",
-    "money": 800000000,
+    "type": "",
+    "money": 80000,
     "ratio": 10
   },
   {
     "ID": 20725,
     "name": "祝英台故里纪念馆",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 2
   },
   {
     "ID": 20726,
     "name": "陆放翁/书圣纪念馆",
     "desc": "",
-    "money": 1200000000,
+    "type": "",
+    "money": 120000,
     "ratio": 1
   },
   {
     "ID": 20727,
     "name": "金华酥饼铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20728,
     "name": "肉沉子店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20729,
     "name": "鸡子粿店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20730,
     "name": "老厉饼铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20731,
     "name": "金华火腿加工厂",
     "desc": "",
-    "money": 80000000,
+    "type": "",
+    "money": 8000,
     "ratio": 8
   },
   {
     "ID": 20732,
     "name": "义乌小商品批发市场",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 7
   },
   {
     "ID": 20733,
     "name": "水晶糕铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20734,
     "name": "三头一掌店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 20735,
     "name": "鸡蛋粿店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20736,
     "name": "龙游发糕铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20737,
     "name": "衢州烤饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20738,
     "name": "开化气糕铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20739,
     "name": "海鲜面馆",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 50
   },
   {
     "ID": 20740,
     "name": "椒盐皮皮虾店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20741,
     "name": "红膏炝蟹店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20742,
     "name": "普陀山观音饼",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20743,
     "name": "梭子蟹养殖基地",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 10
   },
   {
     "ID": 20744,
     "name": "大黄鱼渔场",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 12
   },
   {
     "ID": 20745,
     "name": "普陀山度假风景区",
     "desc": "",
-    "money": 1900000000,
+    "type": "",
+    "money": 190000,
     "ratio": 4
   },
   {
     "ID": 20746,
     "name": "海苔饼铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 20747,
     "name": "乌饭麻滋店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 20748,
     "name": "沙蒜豆面店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 120
   },
   {
     "ID": 20749,
     "name": "蛋清羊尾店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 20750,
     "name": "温岭嵌糕铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 20751,
     "name": "姜汤面馆",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 20752,
     "name": "天台山风景度假区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 2
   },
   {
     "ID": 20753,
     "name": "国清寺博物馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 20754,
     "name": "缙云烧饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 66
   },
   {
     "ID": 20755,
     "name": "泡精肉店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 20756,
     "name": "瘦肉丸店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 20757,
     "name": "缙云敲肉羹店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 25
   },
   {
     "ID": 20758,
     "name": "青田山粉饺店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 25
   },
   {
     "ID": 20759,
     "name": "龙泉剑冶炼庄",
     "desc": "",
-    "money": 700000000,
+    "type": "",
+    "money": 70000,
     "ratio": 7
   },
   {
     "ID": 20760,
     "name": "臭鳜鱼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20761,
     "name": "三河米饺店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20762,
     "name": "鸭油烧饼铺",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 80
   },
   {
     "ID": 20763,
     "name": "泸州烤鸭店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 80
   },
   {
     "ID": 20764,
     "name": "吴山贡鹅店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20765,
     "name": "李鸿章大杂烩店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20766,
     "name": "肥西老母鸡汤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20767,
     "name": "周公瑾纪念馆",
     "desc": "",
-    "money": 3600000000,
+    "type": "",
+    "money": 360000,
     "ratio": 3
   },
   {
     "ID": 20768,
     "name": "红皮鸭子店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20769,
     "name": "赤豆酒酿铺",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20770,
     "name": "虾籽面馆",
     "desc": "",
-    "money": 2800000,
+    "type": "",
+    "money": 280,
     "ratio": 80
   },
   {
     "ID": 20771,
     "name": "小高米线馆",
     "desc": "",
-    "money": 2800000,
+    "type": "",
+    "money": 280,
     "ratio": 80
   },
   {
     "ID": 20772,
     "name": "泡泡馄饨店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 25
   },
   {
     "ID": 20773,
     "name": "腰子饼铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 25
   },
   {
     "ID": 20774,
     "name": "三只鼠鼠坚果搬运基地",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 7
   },
   {
     "ID": 20775,
     "name": "烧饼夹里脊摊",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20776,
     "name": "冰酒酿店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20777,
     "name": "沱湖螃蟹店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 200
   },
   {
     "ID": 20778,
     "name": "怀远石榴林",
     "desc": "",
-    "money": 30000000,
+    "type": "",
+    "money": 3000,
     "ratio": 2
   },
   {
     "ID": 20779,
     "name": "固镇花生田",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20780,
     "name": "八公山豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20781,
     "name": "淮南牛肉汤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20782,
     "name": "寿县大救驾糕点店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20783,
     "name": "淮南土豆片店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 30
   },
   {
     "ID": 20784,
     "name": "水晶圆子店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 30
   },
   {
     "ID": 20785,
     "name": "采石矶茶干铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20786,
     "name": "当涂大肉面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20787,
     "name": "渣肉蒸饭店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 80
   },
   {
     "ID": 20788,
     "name": "杀猪粉店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 60
   },
   {
     "ID": 20789,
     "name": "霍里羊糕店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20790,
     "name": "口袋鸭店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20791,
     "name": "太湖山鹿茸养殖场",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 2
   },
   {
     "ID": 20792,
     "name": "西楚霸王纪念馆",
     "desc": "",
-    "money": 1200000000,
+    "type": "",
+    "money": 120000,
     "ratio": 1
   },
   {
     "ID": 20793,
     "name": "烫面馆",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20794,
     "name": "榴园地锅鸡店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20795,
     "name": "马蹄烧饼铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20796,
     "name": "临涣培乳肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 200
   },
   {
     "ID": 20797,
     "name": "建安路卷馍铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 300
   },
   {
     "ID": 20798,
     "name": "口子甘露制造厂",
     "desc": "",
-    "money": 30000000,
+    "type": "",
+    "money": 3000,
     "ratio": 8
   },
   {
     "ID": 20799,
     "name": "特色馄饨铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 20800,
     "name": "永泉杀猪汤店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20801,
     "name": "顺安酥糖铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20802,
     "name": "太平烧饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20803,
     "name": "大肠面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20804,
     "name": "铜陵白姜种植园",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 10
   },
   {
     "ID": 20805,
     "name": "怀宁贡糕铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 120
   },
   {
     "ID": 20806,
     "name": "墨子酥铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20807,
     "name": "江毛水饺店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20808,
     "name": "山粉圆子烧肉店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 50
   },
   {
     "ID": 20809,
     "name": "鸡汤泡炒米店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 30
   },
   {
     "ID": 20810,
     "name": "特色牛肉面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20811,
     "name": "臭鳜鱼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20812,
     "name": "毛豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20813,
     "name": "黄山烧饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20814,
     "name": "酒酿饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20815,
     "name": "笋干烧肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20816,
     "name": "太平猴魁采茶园",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 9
   },
   {
     "ID": 20817,
     "name": "黄山毛峰采茶园",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 10
   },
   {
     "ID": 20818,
     "name": "祁门红茶采茶园",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 10
   },
   {
     "ID": 20819,
     "name": "黄山度假风景区",
     "desc": "",
-    "money": 900000000,
+    "type": "",
+    "money": 90000,
     "ratio": 1
   },
   {
     "ID": 20820,
     "name": "蚝油串店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 300
   },
   {
     "ID": 20821,
     "name": "肉丝面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 200
   },
   {
     "ID": 20822,
     "name": "秦栏卤鹅店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20823,
     "name": "雷官板鸭店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20824,
     "name": "凤阳酿豆腐店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20825,
     "name": "马厂酥笏牌‌店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20826,
     "name": "管坝牛肉店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 20827,
     "name": "醉翁亭纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 4
   },
   {
     "ID": 20828,
     "name": "格拉条店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20829,
     "name": "特色卷膜店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 20830,
     "name": "粉鸡店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20831,
     "name": "太和板面馆",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 30
   },
   {
     "ID": 20832,
     "name": "撒汤店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20833,
     "name": "符离集烧鸡店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20834,
     "name": "栏杆牛肉店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20835,
     "name": "特色麻辣烫店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20836,
     "name": "萧县鱼咬羊店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20837,
     "name": "砀山酥梨林",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 1
   },
   {
     "ID": 20838,
     "name": "蒿子粑粑店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 20839,
     "name": "金寨吊锅店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20840,
     "name": "传统小刀面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 35
   },
   {
     "ID": 20841,
     "name": "万佛湖鱼头庄",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20842,
     "name": "六安瓜片采茶园",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 9
   },
   {
     "ID": 20843,
     "name": "牛肉馍铺",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20844,
     "name": "炒米线店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20845,
     "name": "蒙城撒汤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20846,
     "name": "涡阳干扣面馆",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20847,
     "name": "古道芍花鸡店",
     "desc": "",
-    "money": 4000000,
+    "type": "",
+    "money": 400,
     "ratio": 50
   },
   {
     "ID": 20848,
     "name": "曹操鱼头店",
     "desc": "",
-    "money": 4000000,
+    "type": "",
+    "money": 400,
     "ratio": 50
   },
   {
     "ID": 20849,
     "name": "名贵中草药种植园",
     "desc": "",
-    "money": 4500000000,
+    "type": "",
+    "money": 450000,
     "ratio": 4
   },
   {
     "ID": 20850,
     "name": "魏武遗风纪念馆",
     "desc": "",
-    "money": 5000000000,
+    "type": "",
+    "money": 500000,
     "ratio": 2
   },
   {
     "ID": 20851,
     "name": "特色臭鳜鱼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20852,
     "name": "池州小粑店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20853,
     "name": "七都臭豆腐店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20854,
     "name": "东至米饺店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20855,
     "name": "西山焦枣树林",
     "desc": "",
-    "money": 30000000,
+    "type": "",
+    "money": 3000,
     "ratio": 3
   },
   {
     "ID": 20856,
     "name": "杏花村度假酒店",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 8
   },
   {
     "ID": 20857,
     "name": "九华山度假风景区",
     "desc": "",
-    "money": 900000000,
+    "type": "",
+    "money": 90000,
     "ratio": 9
   },
   {
     "ID": 20858,
     "name": "宁国粑粑铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20859,
     "name": "水阳三宝店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20860,
     "name": "赤豆酒酿店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 30
   },
   {
     "ID": 20861,
     "name": "胡适一品锅店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 30
   },
   {
     "ID": 20862,
     "name": "桃花潭风景区",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 3
   },
   {
     "ID": 20863,
     "name": "荔枝肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 30
   },
   {
     "ID": 20864,
     "name": "佛跳墙店",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 50
   },
   {
     "ID": 20865,
     "name": "福鼎肉片店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 30
   },
   {
     "ID": 20866,
     "name": "茯苓糕铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 20867,
     "name": "福州鱼丸生产厂",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 8
   },
   {
     "ID": 20868,
     "name": "软木画展览馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 8
   },
   {
     "ID": 20869,
     "name": "茉莉花茶园",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 8
   },
   {
     "ID": 20870,
     "name": "沙茶面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 125
   },
   {
     "ID": 20871,
     "name": "鱼皮花生铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 125
   },
   {
     "ID": 20872,
     "name": "海蛎煎铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20873,
     "name": "花生汤铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20874,
     "name": "满煎糕店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20875,
     "name": "鼓浪屿旅游风景区",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 20876,
     "name": "莆田卤面馆",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20877,
     "name": "兴化炒米粉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20878,
     "name": "红团铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20879,
     "name": "特色炝肉店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20880,
     "name": "龙桥扁食店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20881,
     "name": "文旦柚子林",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 10
   },
   {
     "ID": 20882,
     "name": "扁肉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20883,
     "name": "特色烧麦店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20884,
     "name": "九层粿店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 80
   },
   {
     "ID": 20885,
     "name": "泥鳅粉干店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20886,
     "name": "特色拌面店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 80
   },
   {
     "ID": 20887,
     "name": "沙县小吃城",
     "desc": "",
-    "money": 9000000,
+    "type": "",
+    "money": 900,
     "ratio": 80
   },
   {
     "ID": 20888,
     "name": "晦庵先生纪念馆",
     "desc": "",
-    "money": 125000000,
+    "type": "",
+    "money": 12500,
     "ratio": 1
   },
   {
     "ID": 20889,
     "name": "面线糊店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20890,
     "name": "蚵仔煎店",
     "desc": "",
-    "money": 1250000,
+    "type": "",
+    "money": 125,
     "ratio": 100
   },
   {
     "ID": 20891,
     "name": "土笋冻店",
     "desc": "",
-    "money": 1250000,
+    "type": "",
+    "money": 125,
     "ratio": 125
   },
   {
     "ID": 20892,
     "name": "四果汤店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20893,
     "name": "姜母鸭御膳房",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 80
   },
   {
     "ID": 20894,
     "name": "提线木偶戏剧院",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20895,
     "name": "麻糍铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20896,
     "name": "卤面馆",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 20897,
     "name": "沙茶面馆",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 50
   },
   {
     "ID": 20898,
     "name": "锅边糊店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20899,
     "name": "海蛎煎店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 75
   },
   {
     "ID": 20900,
     "name": "发稞铺子",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20901,
     "name": "水仙花园",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 20902,
     "name": "紫溪粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20903,
     "name": "武夷熏鹅店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 20904,
     "name": "仁寿灌蛋店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20905,
     "name": "稻花鱼庄",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 30
   },
   {
     "ID": 20906,
     "name": "板栗饼铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20907,
     "name": "大红袍武夷岩茶园",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 10
   },
   {
     "ID": 20908,
     "name": "清汤粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 125
   },
   {
     "ID": 20909,
     "name": "牛肉兜汤店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 125
   },
   {
     "ID": 20910,
     "name": "芋子包店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20911,
     "name": "泡猪腰店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20912,
     "name": "簸箕粄铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20913,
     "name": "福鼎肉片店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 20914,
     "name": "海蛎煎铺",
     "desc": "",
-    "money": 1250000,
+    "type": "",
+    "money": 125,
     "ratio": 100
   },
   {
     "ID": 20915,
     "name": "芋头面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20916,
     "name": "煎包店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20917,
     "name": "烧仙草铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 200
   },
   {
     "ID": 20918,
     "name": "新能源电池灯塔工厂",
     "desc": "",
-    "money": 10000000000,
+    "type": "",
+    "money": 1000000,
     "ratio": 8
   },
   {
     "ID": 20919,
     "name": "白糖糕铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20920,
     "name": "瓦罐汤店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20921,
     "name": "豫章酥鸭店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 120
   },
   {
     "ID": 20922,
     "name": "南昌水煮摊",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 150
   },
   {
     "ID": 20923,
     "name": "皮蛋肉饼汤店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 150
   },
   {
     "ID": 20924,
     "name": "绳金塔旅游区",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 2
   },
   {
     "ID": 20925,
     "name": "王子安纪念馆/晏同叔纪念馆",
     "desc": "",
-    "money": 1055000000,
+    "type": "",
+    "money": 105500,
     "ratio": 2
   },
   {
     "ID": 20926,
     "name": "滕王阁旅游风景区",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 5
   },
   {
     "ID": 20927,
     "name": "冷粉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20928,
     "name": "饺子粑铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20929,
     "name": "油条包麻糍店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20930,
     "name": "牛骨粉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 200
   },
   {
     "ID": 20931,
     "name": "青花瓷器展览馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 20
   },
   {
     "ID": 20932,
     "name": "玲珑瓷器展览馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 20
   },
   {
     "ID": 20933,
     "name": "粉彩瓷器展览馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 20
   },
   {
     "ID": 20934,
     "name": "色釉瓷器展览馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 20
   },
   {
     "ID": 20935,
     "name": "萍乡小炒肉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20936,
     "name": "莲花血鸭店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20937,
     "name": "萍乡炒粉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 20938,
     "name": "萍乡花果点心铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20939,
     "name": "武功山风景区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 5
   },
   {
     "ID": 20940,
     "name": "萝卜饼铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 20941,
     "name": "鄱湖胖鱼头店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 50
   },
   {
     "ID": 20942,
     "name": "九江茶饼铺子",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 35
   },
   {
     "ID": 20943,
     "name": "庐山三石店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 30
   },
   {
     "ID": 20944,
     "name": "庐山云雾茶园",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 3
   },
   {
     "ID": 20945,
     "name": "庐山瀑布风景区",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 5
   },
   {
     "ID": 20946,
     "name": "五柳先生纪念馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 5
   },
   {
     "ID": 20947,
     "name": "鸭三件店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 30
   },
   {
     "ID": 20948,
     "name": "麻辣冻粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 30
   },
   {
     "ID": 20949,
     "name": "新余蜜桔林",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 20950,
     "name": "罗坊湖藕塘",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 20951,
     "name": "观巢巨峰葡萄林",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 20952,
     "name": "仙女湖风景区",
     "desc": "",
-    "money": 70000000,
+    "type": "",
+    "money": 7000,
     "ratio": 7
   },
   {
     "ID": 20953,
     "name": "特色牛骨粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20954,
     "name": "上清豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20955,
     "name": "天师板栗烧土鸡店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20956,
     "name": "贵溪灯芯糕铺",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 200
   },
   {
     "ID": 20957,
     "name": "宫廷桃酥店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 200
   },
   {
     "ID": 20958,
     "name": "张天师纪念馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 5
   },
   {
     "ID": 20959,
     "name": "龙虎山风景旅游区",
     "desc": "",
-    "money": 2000000000,
+    "type": "",
+    "money": 200000,
     "ratio": 2
   },
   {
     "ID": 20960,
     "name": "赣南小炒鱼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20961,
     "name": "宁都肉丸店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20962,
     "name": "信丰萝卜饺店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20963,
     "name": "艾米果铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 20964,
     "name": "赣南脐橙林",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 2
   },
   {
     "ID": 20965,
     "name": "三百山风景区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 20966,
     "name": "吉安炒粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 65
   },
   {
     "ID": 20967,
     "name": "万安鱼头店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 65
   },
   {
     "ID": 20968,
     "name": "永和豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 20969,
     "name": "永新血鸭店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 20970,
     "name": "白糖糕铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 95
   },
   {
     "ID": 20971,
     "name": "白鹭洲书院纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 2
   },
   {
     "ID": 20972,
     "name": "慈化鸡店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 50
   },
   {
     "ID": 20973,
     "name": "土扎粉店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 50
   },
   {
     "ID": 20974,
     "name": "炸麻辣店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 70
   },
   {
     "ID": 20975,
     "name": "万载得胜鼓文化馆",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 1
   },
   {
     "ID": 20976,
     "name": "明月山温泉度假区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 2
   },
   {
     "ID": 20977,
     "name": "宋应星纪念馆",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 2
   },
   {
     "ID": 20978,
     "name": "临川牛杂店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 60
   },
   {
     "ID": 20979,
     "name": "抚州泡粉店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20980,
     "name": "资溪面包店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20981,
     "name": "黎川灌芯糖铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20982,
     "name": "羹团子店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 20983,
     "name": "大觉山旅游风景区",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 2
   },
   {
     "ID": 20984,
     "name": "临川先生纪念馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 20985,
     "name": "上饶山鸡腿店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20986,
     "name": "灯盏稞店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20987,
     "name": "铅山烫粉店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 60
   },
   {
     "ID": 20988,
     "name": "弋阳年糕店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 60
   },
   {
     "ID": 20989,
     "name": "婺源绿茶园",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 8
   },
   {
     "ID": 20990,
     "name": "三清山旅游风景区",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 3
   },
   {
     "ID": 20991,
     "name": "把子肉店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 90
   },
   {
     "ID": 20992,
     "name": "九转大肠店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 90
   },
   {
     "ID": 20993,
     "name": "爆炒腰花店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 90
   },
   {
     "ID": 20994,
     "name": "甜沫店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 20995,
     "name": "黄焖鸡店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 300
   },
   {
     "ID": 20996,
     "name": "糖醋鲤鱼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 200
   },
   {
     "ID": 20997,
     "name": "章丘大葱种植基地",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 5
   },
   {
     "ID": 20998,
     "name": "跃突泉旅游区",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 2
   },
   {
     "ID": 20999,
     "name": "易安居士纪念馆/词中之龙纪念馆",
     "desc": "",
-    "money": 2100000000,
+    "type": "",
+    "money": 210000,
     "ratio": 2
   },
   {
     "ID": 21000,
     "name": "海肠捞饭店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 21001,
     "name": "特色脂渣店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 21002,
     "name": "鲅鱼饺子馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 100
   },
   {
     "ID": 21003,
     "name": "崂山特色可乐制造厂",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 5
   },
   {
     "ID": 21004,
     "name": "特色白花蛇草水制造厂",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 4
   },
   {
     "ID": 21005,
     "name": "青岛啤甘露制造厂",
     "desc": "",
-    "money": 50000000,
+    "type": "",
+    "money": 5000,
     "ratio": 8
   },
   {
     "ID": 21006,
     "name": "高铁制造工厂",
     "desc": "",
-    "money": 5000000000,
+    "type": "",
+    "money": 500000,
     "ratio": 2
   },
   {
     "ID": 21007,
     "name": "淄博烧烤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 300
   },
   {
     "ID": 21008,
     "name": "紫米饼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21009,
     "name": "豆腐箱店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21010,
     "name": "肥肠包子铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21011,
     "name": "周村烧饼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21012,
     "name": "特色辣子鸡店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 21013,
     "name": "菜煎饼店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 21014,
     "name": "黄花牛肉面店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 35
   },
   {
     "ID": 21015,
     "name": "羊肉汤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 35
   },
   {
     "ID": 21016,
     "name": "微山湖四鼻孔鲤鱼塘",
     "desc": "",
-    "money": 12000000,
+    "type": "",
+    "money": 1200,
     "ratio": 2
   },
   {
     "ID": 21017,
     "name": "利津水煎包子铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 45
   },
   {
     "ID": 21018,
     "name": "特色红烧肉店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 45
   },
   {
     "ID": 21019,
     "name": "史口烧鸡店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 55
   },
   {
     "ID": 21020,
     "name": "黄河口大闸蟹店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 55
   },
   {
     "ID": 21021,
     "name": "广饶肴驴肉店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 80
   },
   {
     "ID": 21022,
     "name": "海肠捞饭店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 21023,
     "name": "鲜鱼水饺店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 21024,
     "name": "蓬莱小面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 21025,
     "name": "烟台焖子店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 21026,
     "name": "福山拉面馆",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 100
   },
   {
     "ID": 21027,
     "name": "三仙山旅游景区",
     "desc": "",
-    "money": 30000000000,
+    "type": "",
+    "money": 3000000,
     "ratio": 1
   },
   {
     "ID": 21028,
     "name": "建昌都尉纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 21029,
     "name": "淮坊肉火烧店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21030,
     "name": "潍城烧饼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21031,
     "name": "诸城烤鸡架店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 60
   },
   {
     "ID": 21032,
     "name": "潍县萝卜田",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 2
   },
   {
     "ID": 21033,
     "name": "淮坊风筝制造厂",
     "desc": "",
-    "money": 20000000,
+    "type": "",
+    "money": 2000,
     "ratio": 1
   },
   {
     "ID": 21034,
     "name": "葡萄鸡丁店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21035,
     "name": "特色夹饼店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21036,
     "name": "甏肉干饭店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21037,
     "name": "特色糁汤店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21038,
     "name": "曲阜小鸡泡面店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21039,
     "name": "至圣先师纪念馆",
     "desc": "",
-    "money": 10000000000,
+    "type": "",
+    "money": 1000000,
     "ratio": 1
   },
   {
     "ID": 21040,
     "name": "泰山炒鸡店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 25
   },
   {
     "ID": 21041,
     "name": "煎饼卷大葱店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 25
   },
   {
     "ID": 21042,
     "name": "泰山三美店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 21043,
     "name": "干煸鸡店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21044,
     "name": "蜜三刀甜点铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21045,
     "name": "鲍叔牙纪念馆",
     "desc": "",
-    "money": 75000000,
+    "type": "",
+    "money": 7500,
     "ratio": 5
   },
   {
     "ID": 21046,
     "name": "海肠捞饭店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 25
   },
   {
     "ID": 21047,
     "name": "鲅鱼饺子店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 25
   },
   {
     "ID": 21048,
     "name": "炸海蟹店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 21049,
     "name": "乳山喜饼铺",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 21050,
     "name": "扇贝养殖场",
     "desc": "",
-    "money": 8000000,
+    "type": "",
+    "money": 800,
     "ratio": 8
   },
   {
     "ID": 21051,
     "name": "文登黑鸭养殖场",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 2
   },
   {
     "ID": 21052,
     "name": "海肠捞饭店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 50
   },
   {
     "ID": 21053,
     "name": "蒸汽海鲜锅店",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 21054,
     "name": "海沙子面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 25
   },
   {
     "ID": 21055,
     "name": "杂鱼锅贴店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 25
   },
   {
     "ID": 21056,
     "name": "日照煎饼铺",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 25
   },
   {
     "ID": 21057,
     "name": "姜太公纪念馆",
     "desc": "",
-    "money": 1015000000,
+    "type": "",
+    "money": 101500,
     "ratio": 2
   },
   {
     "ID": 21058,
     "name": "临沂炒鸡店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 200
   },
   {
     "ID": 21059,
     "name": "麻辣牛肉条店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 200
   },
   {
     "ID": 21060,
     "name": "风味茄子店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 21061,
     "name": "八宝豆豉加工厂",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 3
   },
   {
     "ID": 21062,
     "name": "蒙山全蝎养殖场",
     "desc": "",
-    "money": 8000000,
+    "type": "",
+    "money": 800,
     "ratio": 3
   },
   {
     "ID": 21063,
     "name": "书圣书法纪念馆",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 3
   },
   {
     "ID": 21064,
     "name": "锅子饼铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 21065,
     "name": "牛筋面馆",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 21066,
     "name": "芝麻酥糖铺",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 21067,
     "name": "沾化冬枣林",
     "desc": "",
-    "money": 6000000,
+    "type": "",
+    "money": 600,
     "ratio": 2
   },
   {
     "ID": 21068,
     "name": "长山山药田",
     "desc": "",
-    "money": 6000000,
+    "type": "",
+    "money": 600,
     "ratio": 2
   },
   {
     "ID": 21069,
     "name": "兵圣兵法纪念馆",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 2
   },
   {
     "ID": 21070,
     "name": "德州扒鸡店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21071,
     "name": "羊肠子店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 50
   },
   {
     "ID": 21072,
     "name": "黄汤拉面馆",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 40
   },
   {
     "ID": 21073,
     "name": "炸老虎店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 40
   },
   {
     "ID": 21074,
     "name": "保店驴肉铺",
     "desc": "",
-    "money": 2600000,
+    "type": "",
+    "money": 260,
     "ratio": 80
   },
   {
     "ID": 21075,
     "name": "长官包子铺",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 80
   },
   {
     "ID": 21076,
     "name": "宁津大柳面馆",
     "desc": "",
-    "money": 3000000,
+    "type": "",
+    "money": 300,
     "ratio": 50
   },
   {
     "ID": 21077,
     "name": "沙镇呱嗒早餐店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 21078,
     "name": "空心琉璃丸子铺",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 25
   },
   {
     "ID": 21079,
     "name": "魏氏熏鸡店",
     "desc": "",
-    "money": 1800000,
+    "type": "",
+    "money": 180,
     "ratio": 50
   },
   {
     "ID": 21080,
     "name": "高唐老豆腐店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21081,
     "name": "八批果子店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 80
   },
   {
     "ID": 21082,
     "name": "东阿阿胶加工厂",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 8
   },
   {
     "ID": 21083,
     "name": "混世魔王纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 10
   },
   {
     "ID": 21084,
     "name": "单县羊肉汤店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 21085,
     "name": "水煎包店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 21086,
     "name": "壮馍店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 80
   },
   {
     "ID": 21087,
     "name": "羊油饼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 21088,
     "name": "曹县鸡蛋火烧店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 100
   },
   {
     "ID": 21089,
     "name": "吊炉烧饼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 200
   },
   {
     "ID": 21090,
     "name": "菏泽牡丹种植园",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 10
   },
   {
     "ID": 21091,
     "name": "陈思王纪念馆",
     "desc": "",
-    "money": 700000000,
+    "type": "",
+    "money": 70000,
     "ratio": 7
   },
   {
     "ID": 21092,
     "name": "郑州烩面",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 60
   },
   {
     "ID": 21093,
     "name": "特色焖饼店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 60
   },
   {
     "ID": 21094,
     "name": "大枣林",
     "desc": "",
-    "money": 6000000,
+    "type": "",
+    "money": 600,
     "ratio": 8
   },
   {
     "ID": 21095,
     "name": "黄河鲤鱼养殖场",
     "desc": "",
-    "money": 12000000,
+    "type": "",
+    "money": 1200,
     "ratio": 4
   },
   {
     "ID": 21096,
     "name": "汽车制造厂",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 1
   },
   {
     "ID": 21097,
     "name": "炒凉粉店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 120
   },
   {
     "ID": 21098,
     "name": "开封灌汤包店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 120
   },
   {
     "ID": 21099,
     "name": "糖醋黄河鲤鱼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 21100,
     "name": "桶子鸡店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 21101,
     "name": "菊花花园",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 5
   },
   {
     "ID": 21102,
     "name": "开封府包青天纪念馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 1
   },
   {
     "ID": 21103,
     "name": "洛阳汤店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 70
   },
   {
     "ID": 21104,
     "name": "洛阳水席店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 60
   },
   {
     "ID": 21105,
     "name": "牡丹花园",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 2
   },
   {
     "ID": 21106,
     "name": "香山居士白园纪念馆",
     "desc": "",
-    "money": 1800000000,
+    "type": "",
+    "money": 180000,
     "ratio": 2
   },
   {
     "ID": 21107,
     "name": "龙门石窟风景区",
     "desc": "",
-    "money": 3000000000,
+    "type": "",
+    "money": 300000,
     "ratio": 2
   },
   {
     "ID": 21108,
     "name": "郏县豆腐菜店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21109,
     "name": "郏县饸饹面店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 50
   },
   {
     "ID": 21110,
     "name": "鲁山揽锅菜店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21111,
     "name": "汝瓷美术馆",
     "desc": "",
-    "money": 1500000000,
+    "type": "",
+    "money": 150000,
     "ratio": 1
   },
   {
     "ID": 21112,
     "name": "道口烧鸡店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21113,
     "name": "扁粉菜店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 30
   },
   {
     "ID": 21114,
     "name": "老庙牛肉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 30
   },
   {
     "ID": 21115,
     "name": "殷墟景区",
     "desc": "",
-    "money": 1900000000,
+    "type": "",
+    "money": 190000,
     "ratio": 4
   },
   {
     "ID": 21116,
     "name": "岳飞抗金纪念馆",
     "desc": "",
-    "money": 3000000000,
+    "type": "",
+    "money": 300000,
     "ratio": 3
   },
   {
     "ID": 21117,
     "name": "浚县石子馍店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21118,
     "name": "‌鹤壁焖饼",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21119,
     "name": "榆皮饸饹面店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 40
   },
   {
     "ID": 21120,
     "name": "缠丝鸭蛋加工厂",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 21121,
     "name": "后主刘禅纪念馆",
     "desc": "",
-    "money": 1000000000,
+    "type": "",
+    "money": 100000,
     "ratio": 1
   },
   {
     "ID": 21122,
     "name": "马忠喜烧饼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 120
   },
   {
     "ID": 21123,
     "name": "延津火烧店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 21124,
     "name": "原阳烩面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 100
   },
   {
     "ID": 21125,
     "name": "新乡小麦田",
     "desc": "",
-    "money": 8000000,
+    "type": "",
+    "money": 800,
     "ratio": 3
   },
   {
     "ID": 21126,
     "name": "浑浆凉粉店",
     "desc": "",
-    "money": 400000,
+    "type": "",
+    "money": 40,
     "ratio": 100
   },
   {
     "ID": 21127,
     "name": "温县羊肉夹馍店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21128,
     "name": "怀府闹汤驴肉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21129,
     "name": "武陟油茶店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21130,
     "name": "云台山景区",
     "desc": "",
-    "money": 150000000,
+    "type": "",
+    "money": 15000,
     "ratio": 3
   },
   {
     "ID": 21131,
     "name": "濮阳裹凉皮店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 50
   },
   {
     "ID": 21132,
     "name": "濮阳壮馍店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 30
   },
   {
     "ID": 21133,
     "name": "白胡辣汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 30
   },
   {
     "ID": 21134,
     "name": "濮阳麦秆画美术馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 21135,
     "name": "丈地羊肉汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21136,
     "name": "禹州杂炣店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 40
   },
   {
     "ID": 21137,
     "name": "许昌烩面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 40
   },
   {
     "ID": 21138,
     "name": "钧瓷美术馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 21139,
     "name": "瘦西去超市",
     "desc": "",
-    "money": 1500000000,
+    "type": "",
+    "money": 150000,
     "ratio": 8
   },
   {
     "ID": 21140,
     "name": "神医华佗纪念馆",
     "desc": "",
-    "money": 5000000000,
+    "type": "",
+    "money": 500000,
     "ratio": 2
   },
   {
     "ID": 21141,
     "name": "北舞渡胡辣汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 50
   },
   {
     "ID": 21142,
     "name": "侯集肘子店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 30
   },
   {
     "ID": 21143,
     "name": "辣条加工厂",
     "desc": "",
-    "money": 1500000000,
+    "type": "",
+    "money": 150000,
     "ratio": 1
   },
   {
     "ID": 21144,
     "name": "贰汇火腿肠加工厂",
     "desc": "",
-    "money": 1500000000,
+    "type": "",
+    "money": 150000,
     "ratio": 1
   },
   {
     "ID": 21145,
     "name": "灵宝肉夹馍店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21146,
     "name": "‌大营麻花‌店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21147,
     "name": "灵宝大刀面‌店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21148,
     "name": "羊肉糊卜饼丝店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 50
   },
   {
     "ID": 21149,
     "name": "灵宝苹果园",
     "desc": "",
-    "money": 800000000,
+    "type": "",
+    "money": 80000,
     "ratio": 2
   },
   {
     "ID": 21150,
     "name": "方城烩面店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21151,
     "name": "博望锅盔店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21152,
     "name": "镇平烧鸡店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 70
   },
   {
     "ID": 21153,
     "name": "新野板面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21154,
     "name": "独山玉矿",
     "desc": "",
-    "money": 600000000,
+    "type": "",
+    "money": 60000,
     "ratio": 1
   },
   {
     "ID": 21155,
     "name": "黄汉升后将军纪念馆",
     "desc": "",
-    "money": 1200000000,
+    "type": "",
+    "money": 120000,
     "ratio": 1
   },
   {
     "ID": 21156,
     "name": "哨子汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21157,
     "name": "薛湖牛肉水煎包店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 60
   },
   {
     "ID": 21158,
     "name": "郭村烧鸡店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 21159,
     "name": "垛子羊肉店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 50
   },
   {
     "ID": 21160,
     "name": "罗山大肠汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21161,
     "name": "固始鹅块",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21162,
     "name": "信阳热干面店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 60
   },
   {
     "ID": 21163,
     "name": "焖罐肉店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 40
   },
   {
     "ID": 21164,
     "name": "毛尖茶园",
     "desc": "",
-    "money": 160000000,
+    "type": "",
+    "money": 16000,
     "ratio": 3
   },
   {
     "ID": 21165,
     "name": "邓城猪蹄店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 120
   },
   {
     "ID": 21166,
     "name": "沈丘顾家馍",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 110
   },
   {
     "ID": 21167,
     "name": "烧蒲菜店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 120
   },
   {
     "ID": 21168,
     "name": "叶氏猪蹄店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 120
   },
   {
     "ID": 21169,
     "name": "周口肉盒‌",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 90
   },
   {
     "ID": 21170,
     "name": "逍遥镇胡辣汤店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 80
   },
   {
     "ID": 21171,
     "name": "正阳花生糕",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21172,
     "name": "塔桥猪蹄店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21173,
     "name": "遂平炸油旋",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 40
   },
   {
     "ID": 21174,
     "name": "打铁花表演馆",
     "desc": "",
-    "money": 90000000,
+    "type": "",
+    "money": 9000,
     "ratio": 6
   },
   {
     "ID": 21175,
     "name": "芝麻田",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 2
   },
   {
     "ID": 21176,
     "name": "鲜鱼糊汤粉店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 110
   },
   {
     "ID": 21177,
     "name": "三鲜豆皮店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21178,
     "name": "藕汤店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21179,
     "name": "热干面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21180,
     "name": "汽车制造厂",
     "desc": "",
-    "money": 2000000000,
+    "type": "",
+    "money": 200000,
     "ratio": 2
   },
   {
     "ID": 21181,
     "name": "黄鹤楼景区",
     "desc": "",
-    "money": 250000000,
+    "type": "",
+    "money": 25000,
     "ratio": 2
   },
   {
     "ID": 21182,
     "name": "黄石港饼店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 21183,
     "name": "印子粑店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 21184,
     "name": "大冶糊粉",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 70
   },
   {
     "ID": 21185,
     "name": "特色土豆片店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 40
   },
   {
     "ID": 21186,
     "name": "郧阳三合汤店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21187,
     "name": "酸浆面",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 40
   },
   {
     "ID": 21188,
     "name": "竹溪蒸盆店",
     "desc": "",
-    "money": 1100000,
+    "type": "",
+    "money": 110,
     "ratio": 40
   },
   {
     "ID": 21189,
     "name": "武当武术馆",
     "desc": "",
-    "money": 90000000,
+    "type": "",
+    "money": 9000,
     "ratio": 5
   },
   {
     "ID": 21190,
     "name": "特色凉虾店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21191,
     "name": "萝卜饺子店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21192,
     "name": "鱼腥草种植园",
     "desc": "",
-    "money": 7000000,
+    "type": "",
+    "money": 700,
     "ratio": 3
   },
   {
     "ID": 21193,
     "name": "水电站",
     "desc": "",
-    "money": 3500000000,
+    "type": "",
+    "money": 350000,
     "ratio": 1
   },
   {
     "ID": 21194,
     "name": "特色红糖饼店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 120
   },
   {
     "ID": 21195,
     "name": "襄阳牛肉面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 90
   },
   {
     "ID": 21196,
     "name": "襄阳豆腐面店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 90
   },
   {
     "ID": 21197,
     "name": "襄阳大头菜生产工厂",
     "desc": "",
-    "money": 5000000,
+    "type": "",
+    "money": 500,
     "ratio": 5
   },
   {
     "ID": 21198,
     "name": "武侯故居隆中纪念馆",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 2
   },
   {
     "ID": 21199,
     "name": "公安锅盔店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21200,
     "name": "荆州鱼糕店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21201,
     "name": "特色小胡鸭店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 21202,
     "name": "荆门雪枣店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21203,
     "name": "矮子馅饼店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 50
   },
   {
     "ID": 21204,
     "name": "长湖鱼糕店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 50
   },
   {
     "ID": 21205,
     "name": "鄂州东坡饼店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21206,
     "name": "鄂州鱼丸",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 21207,
     "name": "特色烧武昌鱼店",
     "desc": "",
-    "money": 1200000,
+    "type": "",
+    "money": 120,
     "ratio": 40
   },
   {
     "ID": 21208,
     "name": "武昌鱼养殖场",
     "desc": "",
-    "money": 80000000,
+    "type": "",
+    "money": 8000,
     "ratio": 1
   },
   {
     "ID": 21209,
     "name": "特色麻糖店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 110
   },
   {
     "ID": 21210,
     "name": "特色米甘露店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21211,
     "name": "特色汽水包店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21212,
     "name": "特色云梦鱼面店",
     "desc": "",
-    "money": 1100000,
+    "type": "",
+    "money": 110,
     "ratio": 60
   },
   {
     "ID": 21213,
     "name": "武穴酥糖店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 100
   },
   {
     "ID": 21214,
     "name": "麻城肉糕店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21215,
     "name": "蕲春酸米粉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21216,
     "name": "特色黄州东坡肉店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 40
   },
   {
     "ID": 21217,
     "name": "黄梅戏剧院",
     "desc": "",
-    "money": 70000000,
+    "type": "",
+    "money": 7000,
     "ratio": 5
   },
   {
     "ID": 21218,
     "name": "花岗石矿",
     "desc": "",
-    "money": 600000000,
+    "type": "",
+    "money": 60000,
     "ratio": 1
   },
   {
     "ID": 21219,
     "name": "特色桂花糕店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21220,
     "name": "贺胜鸡汤店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 100
   },
   {
     "ID": 21221,
     "name": "通山包坨店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 80
   },
   {
     "ID": 21222,
     "name": "特色宝塔肉店",
     "desc": "",
-    "money": 1100000,
+    "type": "",
+    "money": 110,
     "ratio": 50
   },
   {
     "ID": 21223,
     "name": "桂花林",
     "desc": "",
-    "money": 9000000,
+    "type": "",
+    "money": 900,
     "ratio": 3
   },
   {
     "ID": 21224,
     "name": "广水滑肉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21225,
     "name": "随州春卷店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21226,
     "name": "随州拐子饭店",
     "desc": "",
-    "money": 1400000,
+    "type": "",
+    "money": 140,
     "ratio": 60
   },
   {
     "ID": 21227,
     "name": "香菇种植园",
     "desc": "",
-    "money": 10000000,
+    "type": "",
+    "money": 1000,
     "ratio": 6
   },
   {
     "ID": 21228,
     "name": "土家油茶汤店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21229,
     "name": "特色油香店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 60
   },
   {
     "ID": 21230,
     "name": "恩施土家酱香饼店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 40
   },
   {
     "ID": 21231,
     "name": "特色合渣店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 40
   },
   {
     "ID": 21232,
     "name": "恩施硒茶田",
     "desc": "",
-    "money": 30000000,
+    "type": "",
+    "money": 3000,
     "ratio": 3
   },
   {
     "ID": 21233,
     "name": "长沙臭豆腐店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21234,
     "name": "葱油粑粑店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21235,
     "name": "糖油粑粑店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21236,
     "name": "麻辣小龙虾店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21237,
     "name": "茶颜月色奶茶店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 40
   },
   {
     "ID": 21238,
     "name": "聪明萝卜湘菜馆",
     "desc": "",
-    "money": 2400000,
+    "type": "",
+    "money": 240,
     "ratio": 25
   },
   {
     "ID": 21239,
     "name": "湘绣美术馆",
     "desc": "",
-    "money": 150000000,
+    "type": "",
+    "money": 15000,
     "ratio": 3
   },
   {
     "ID": 21240,
     "name": "仙都酱板鸭店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21241,
     "name": "攸县血鸭店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21242,
     "name": "炎帝陵",
     "desc": "",
-    "money": 150000000,
+    "type": "",
+    "money": 15000,
     "ratio": 2
   },
   {
     "ID": 21243,
     "name": "机车制造厂",
     "desc": "",
-    "money": 6000000000,
+    "type": "",
+    "money": 600000,
     "ratio": 1
   },
   {
     "ID": 21244,
     "name": "湘乡烘糕‌店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 70
   },
   {
     "ID": 21245,
     "name": "‌中路铺药糖店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21246,
     "name": "脑髓卷店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21247,
     "name": "特色肉丝粉店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21248,
     "name": "湘莲塘",
     "desc": "",
-    "money": 8000000,
+    "type": "",
+    "money": 800,
     "ratio": 2
   },
   {
     "ID": 21249,
     "name": "衡阳鱼粉店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21250,
     "name": "金甲岭萝卜条店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21251,
     "name": "衡东脆肚店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21252,
     "name": "茅市烧饼店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21253,
     "name": "石鼓薄酥月饼店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 50
   },
   {
     "ID": 21254,
     "name": "邵阳米粉店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 60
   },
   {
     "ID": 21255,
     "name": "猪血丸子店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21256,
     "name": "血酱鸭店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21257,
     "name": "‌邵东玉竹‌田",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 2
   },
   {
     "ID": 21258,
     "name": "平江酱干店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21259,
     "name": "长乐甜甘露店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 150
   },
   {
     "ID": 21260,
     "name": "君山银针茶园",
     "desc": "",
-    "money": 70000000,
+    "type": "",
+    "money": 7000,
     "ratio": 3
   },
   {
     "ID": 21261,
     "name": "岳阳楼景区",
     "desc": "",
-    "money": 400000000,
+    "type": "",
+    "money": 40000,
     "ratio": 1
   },
   {
     "ID": 21262,
     "name": "特色擂茶店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21263,
     "name": "特色钵子菜店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21264,
     "name": "常德米粉店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 50
   },
   {
     "ID": 21265,
     "name": "特色酱板鸭店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 50
   },
   {
     "ID": 21266,
     "name": "汉寿甲鱼养殖场",
     "desc": "",
-    "money": 80000000,
+    "type": "",
+    "money": 8000,
     "ratio": 3
   },
   {
     "ID": 21267,
     "name": "土家腊肉店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 50
   },
   {
     "ID": 21268,
     "name": "张家界三下锅店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 21269,
     "name": "葛根粉加工厂",
     "desc": "",
-    "money": 60000000,
+    "type": "",
+    "money": 6000,
     "ratio": 3
   },
   {
     "ID": 21270,
     "name": "张家界景区",
     "desc": "",
-    "money": 300000000,
+    "type": "",
+    "money": 30000,
     "ratio": 1
   },
   {
     "ID": 21271,
     "name": "麻香糕店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21272,
     "name": "特色白粒丸店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21273,
     "name": "益阳麻辣烫店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21274,
     "name": "安化黑茶园",
     "desc": "",
-    "money": 15000000,
+    "type": "",
+    "money": 1500,
     "ratio": 4
   },
   {
     "ID": 21275,
     "name": "大通湖大闸蟹养殖场",
     "desc": "",
-    "money": 80000000,
+    "type": "",
+    "money": 8000,
     "ratio": 2
   },
   {
     "ID": 21276,
     "name": "栖凤渡鱼粉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21277,
     "name": "特色杀猪粉店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 80
   },
   {
     "ID": 21278,
     "name": "临武鸭店",
     "desc": "",
-    "money": 1000000,
+    "type": "",
+    "money": 100,
     "ratio": 50
   },
   {
     "ID": 21279,
     "name": "特色东江鱼店",
     "desc": "",
-    "money": 2000000,
+    "type": "",
+    "money": 200,
     "ratio": 25
   },
   {
     "ID": 21280,
     "name": "东江鱼养殖场",
     "desc": "",
-    "money": 90000000,
+    "type": "",
+    "money": 9000,
     "ratio": 2
   },
   {
     "ID": 21281,
     "name": "纸圣蔡敬仲纪念馆",
     "desc": "",
-    "money": 100000000,
+    "type": "",
+    "money": 10000,
     "ratio": 1
   },
   {
     "ID": 21282,
     "name": "特色凉拌粉店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 80
   },
   {
     "ID": 21283,
     "name": "永州血鸭店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 50
   },
   {
     "ID": 21284,
     "name": "特色东安鸡店",
     "desc": "",
-    "money": 1500000,
+    "type": "",
+    "money": 150,
     "ratio": 25
   },
   {
     "ID": 21285,
     "name": "黄公覆纪念馆/周茂叔纪念馆",
     "desc": "",
-    "money": 200000000,
+    "type": "",
+    "money": 20000,
     "ratio": 1
   },
   {
     "ID": 21286,
     "name": "怀化米粉店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 90
   },
   {
     "ID": 21287,
     "name": "米豆腐店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 80
   },
   {
     "ID": 21288,
     "name": "沅陵酥糖店",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21289,
     "name": "芷江炒鸭店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 60
   },
   {
     "ID": 21290,
     "name": "洪江血粑鸭店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 70
   },
   {
     "ID": 21291,
     "name": "永丰辣酱店",
     "desc": "",
-    "money": 500000,
+    "type": "",
+    "money": 50,
     "ratio": 90
   },
   {
     "ID": 21292,
     "name": "水车板鸭‌",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21293,
     "name": "‌涟源牛肉粉‌",
     "desc": "",
-    "money": 600000,
+    "type": "",
+    "money": 60,
     "ratio": 70
   },
   {
     "ID": 21294,
     "name": "新化三合汤店",
     "desc": "",
-    "money": 900000,
+    "type": "",
+    "money": 90,
     "ratio": 50
   },
   {
     "ID": 21295,
     "name": "傩戏剧院",
     "desc": "",
-    "money": 830000000,
+    "type": "",
+    "money": 83000,
     "ratio": 1
   },
   {
     "ID": 21296,
     "name": "湘西腊肉店",
     "desc": "",
-    "money": 700000,
+    "type": "",
+    "money": 70,
     "ratio": 60
   },
   {
     "ID": 21297,
     "name": "湘西米豆腐店",
     "desc": "",
-    "money": 800000,
+    "type": "",
+    "money": 80,
     "ratio": 50
   },
   {
     "ID": 21298,
     "name": "湘西血粑鸭店",
     "desc": "",
-    "money": 1100000,
+    "type": "",
+    "money": 110,
     "ratio": 40
   },
   {
     "ID": 21299,
     "name": "凤凰古城景区",
     "desc": "",
-    "money": 500000000,
+    "type": "",
+    "money": 50000,
     "ratio": 1
   }
 ]

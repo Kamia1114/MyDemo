@@ -78,7 +78,7 @@ namespace Battle.Manager
         {
             Debug.Log("回合结束，进行结算");
             int SettlementPeriod = int.Parse(ConfigManager.GetGameConfig("Settlement"));
-            if (SettlementPeriod % roundManager.CurRound == 0)
+            if (roundManager.CurRound % SettlementPeriod == 0)
             {
                 //结算周期到了
                 playerManager.Settlement();
@@ -100,6 +100,18 @@ namespace Battle.Manager
         {
             Debug.Log($"当前玩家索引: {index}");
             playerManager.PlayTurn(index);
+            gridManager.ShowNearGridTip(playerManager.CurrentPlayer);
+        }
+
+        public void HideNearGridTip()
+        {
+            gridManager.HideNearGridTip();
+        }
+
+        public void UpdateNearGridTip()
+        {
+            //更新附近格子提示
+            gridManager.ShowNearGridTip(playerManager.CurrentPlayer);
         }
 
         private void OnHandlerGridEvent(object data)
