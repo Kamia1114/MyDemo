@@ -208,14 +208,14 @@ public class GameUIController : MonoBehaviour
                 GridCfgTable curGridCfg = ConfigManager.GetConfig<GridCfgTable>(GetCurrentPlayerModel().CurrentGridId);
                 switch (curGridCfg.type)
                 {
-                    case GridTypeEnum.城市:
+                    case GridTypeEnum.City:
                         UIManager.Instance.OpenUI(UIName.City);
                         break;
-                    case GridTypeEnum.金钱:
+                    case GridTypeEnum.Money:
                         var curType = curGridCfg.arg == "+"?MoneyType.Income:MoneyType.Expense;
                         UIManager.Instance.OpenUI(UIName.Money, new object[] { curType });
                         break;
-                    case GridTypeEnum.卡牌:
+                    case GridTypeEnum.Card:
                         UIManager.Instance.OpenUI(UIName.Card);
                         break;
                     default:

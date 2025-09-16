@@ -49,10 +49,10 @@ namespace Battle.Grid
             {
                 switch (gridType)
                 {
-                    case GridTypeEnum.城市:
+                    case GridTypeEnum.City:
                         renderer.material.color = new Color(1f, 0.75f, 0.8f);
                         break;
-                    case GridTypeEnum.金钱:
+                    case GridTypeEnum.Money:
                         if (arg == "+")
                         {
                             renderer.material.color = Color.green;
@@ -62,16 +62,16 @@ namespace Battle.Grid
                             renderer.material.color = Color.red;
                         }
                         break;
-                    case GridTypeEnum.卡牌:
+                    case GridTypeEnum.Card:
                         renderer.material.color = Color.blue;
                         break;
-                    case GridTypeEnum.彩票:
+                    case GridTypeEnum.Lottery:
                         renderer.material.color = Color.green; // 深绿色
                         break;
-                    case GridTypeEnum.传送:
+                    case GridTypeEnum.Fly:
                         renderer.material.color = Color.yellow; // 深绿色
                         break;
-                    case GridTypeEnum.商店:
+                    case GridTypeEnum.Shop:
                         renderer.material.color = Color.blue; // 深绿色
                         break;
                     // case GridTypeEnum.机场:

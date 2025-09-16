@@ -1,245 +1,333 @@
 [
   {
     "ID": 30007,
-    "type": 2,
-    "useType": 0,
     "name": "加速PLUS卡",
-    "desc": "使用后，每回合均可掷两个骰子，直到能量耗尽。",
-    "extraRoll": false,
-    "tip": "xxx董事长使用了加速PLUS卡",
-    "target": 0,
-    "countType": 1,
+    "type": 1,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 1,
+    "countType": 0,
     "count": [
       5
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50001,
+    "param": [
+      2
+    ],
+    "extraRoll": false,
+    "desc": "使用后，每回合均可掷两个骰子，直到能量耗尽。",
+    "tip": "xxx董事长使用了加速PLUS卡"
   },
   {
     "ID": 30010,
-    "type": 2,
-    "useType": 0,
     "name": "特快列车卡",
-    "desc": "本回合可掷四个骰子。",
-    "extraRoll": false,
-    "tip": "xxx董事长使用了特快列车卡",
-    "target": 0,
-    "countType": 1,
+    "type": 1,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 1,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50001,
+    "param": [
+      4
+    ],
+    "extraRoll": false,
+    "desc": "本回合可掷四个骰子。",
+    "tip": "xxx董事长使用了特快列车卡"
   },
   {
     "ID": 30033,
-    "type": 2,
-    "useType": 3,
     "name": "随心飞卡",
-    "desc": "可随机飞往一座城市旅游。",
-    "extraRoll": false,
-    "tip": "xxx董事长使用了随心飞卡，随机飞到任意城市啦！",
-    "target": 0,
-    "countType": 1,
+    "type": 1,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 1,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50010,
+    "param": [
+      1,
+      0
+    ],
+    "extraRoll": false,
+    "desc": "可随机飞往一座城市旅游。",
+    "tip": "xxx董事长使用了随心飞卡，随机飞到任意城市啦！"
   },
   {
     "ID": 30035,
-    "type": 0,
-    "useType": 3,
     "name": "乐不思蜀卡",
-    "desc": "强制让目标玩家飞往洛阳并休息一回合。",
-    "extraRoll": false,
-    "tip": "刘禅在洛阳乐不思蜀，XX董事长也去洛阳享受一下吧！休息一回合，放松身心。",
-    "target": 1,
-    "countType": -1,
+    "type": 1,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 2,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50009,
+    "param": [
+      1080
+    ],
+    "extraRoll": false,
+    "desc": "强制让目标玩家飞往洛阳并休息一回合。",
+    "tip": "刘禅在洛阳乐不思蜀，XX董事长也去洛阳享受一下吧！休息一回合，放松身心。"
   },
   {
     "ID": 30050,
-    "type": 0,
-    "useType": 8,
     "name": "巧取豪夺卡",
-    "desc": "随机抢夺目标玩家的一张卡片，并占为己有。",
-    "extraRoll": false,
-    "tip": "巧夺天工，占为己有！XXX董事长抢夺XX董事长的卡牌，资源在手，天下我有！",
-    "target": 1,
-    "countType": 1,
+    "type": 0,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 3,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50008,
+    "param": [
+      1
+    ],
+    "extraRoll": false,
+    "desc": "随机抢夺目标玩家的一张卡片，并占为己有。",
+    "tip": "巧夺天工，占为己有！XXX董事长抢夺XX董事长的卡牌，资源在手，天下我有！"
   },
   {
     "ID": 30057,
-    "type": 0,
-    "useType": 6,
     "name": "祸水东引卡",
-    "desc": "可驱逐扫把星，将其转移至其他玩家身边，避免自身受害。",
-    "extraRoll": false,
-    "tip": "以浩然正气震慑邪祟！XXX董事长一身正气，扫把星被吓跑去了别处，跑到了YYY董事长身边。",
-    "target": 1,
-    "countType": 1,
+    "type": 0,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 2,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50011,
+    "param": [],
+    "extraRoll": false,
+    "desc": "可驱逐扫把星，将其转移至其他玩家身边，避免自身受害。",
+    "tip": "以浩然正气震慑邪祟！XXX董事长一身正气，扫把星被吓跑去了别处，跑到了YYY董事长身边。"
   },
   {
     "ID": 30058,
-    "type": 0,
-    "useType": 4,
     "name": "打家劫舍卡",
-    "desc": "可掠夺目标玩家的一部分现金，填补自身资金缺口。",
-    "extraRoll": false,
-    "tip": "生意上的事怎么能叫抢？财源滚滚来！XXX董事长抢走了XX董事长XX金钱。（当抢了最高上限钱的时候文字：给XX董事长留了100元打车费回家，XXX董事长人还怪好的呢！）",
-    "target": 1,
-    "countType": 1,
+    "type": 0,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 2,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": "（50%概率抢1/2至少，10%给别的董事长只留100元打车费（只剩100元时文本会加上一句“给XX董事长留了100元路费，XXX董事长人还怪好的嘞。”，中间线性分布。）"
+    "triggerTimings": [],
+    "skillID": 50012,
+    "param": [
+      10,
+      1
+    ],
+    "extraRoll": false,
+    "desc": "可掠夺目标玩家的一部分现金，填补自身资金缺口。",
+    "tip": "生意上的事怎么能叫抢？财源滚滚来！XXX董事长抢走了XX董事长XX金钱。（当抢了最高上限钱的时候文字：给XX董事长留了1万打车费回家，XXX董事长人还怪好的呢！）"
   },
   {
     "ID": 30063,
-    "type": 1,
-    "useType": 4,
     "name": "一笔勾销卡",
-    "desc": "所有负债玩家的债务一笔勾销，持有资金清零。",
-    "extraRoll": true,
-    "tip": "东山再起，从头再来！XX董事长上演了一出雪中送炭，把大家的负债都一笔勾销了！欠债的玩家们终于轻装上阵，感激地直呼万岁！",
-    "target": 3,
-    "countType": 1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 5,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50013,
+    "param": [
+      2
+    ],
+    "extraRoll": true,
+    "desc": "所有负债玩家的债务一笔勾销，持有资金清零。",
+    "tip": "东山再起，从头再来！XX董事长上演了一出雪中送炭，把大家的负债都一笔勾销了！欠债的玩家们终于轻装上阵，感激地直呼万岁！"
   },
   {
     "ID": 30070,
-    "type": 1,
-    "useType": 4,
     "name": "财神卡",
-    "desc": "持有后每月都会获得一定金额，5个月后卡片会升级为五路财神卡，此后每月送财额度提升5倍，持续12个月。",
-    "extraRoll": true,
-    "tip": "天降财神，XX董事长从此月月有钱拿！5个月后五路财神驾到，红包金额飙涨5倍，一直发到年底，财运亨通爽歪歪！",
-    "target": 0,
-    "countType": -1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 1,
+    "target": 1,
+    "countType": 0,
     "count": [
+      1
+    ],
+    "triggerTimings": [
+      3
+    ],
+    "skillID": 50014,
+    "param": [
+      3,
+      1,
+      1000,
+      5,
+      5000,
       12
     ],
-    "arg": ""
+    "extraRoll": true,
+    "desc": "持有后每月都会获得一定金额，5个月后卡片会升级为五路财神卡，此后每月送财额度提升5倍，持续12个月。",
+    "tip": "天降财神，XX董事长从此月月有钱拿！5个月后五路财神驾到，红包金额飙涨5倍，一直发到年底，财运亨通爽歪歪！"
   },
   {
     "ID": 30073,
-    "type": 1,
-    "useType": 26,
     "name": "白猫警长卡",
-    "desc": "持有期间，可抵挡扒手鸡南北或小偷狗东西的一次偷窃行为，一次性使用。",
-    "extraRoll": true,
-    "tip": "喵～白猫警长来了！有这位神勇警长守护，扒手鸡南北和狗东西哪敢靠近？统统吓得落荒而逃！",
-    "target": 0,
-    "countType": 1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 1,
+    "target": 1,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [
+      7
+    ],
+    "skillID": 50015,
+    "param": [],
+    "extraRoll": true,
+    "desc": "持有期间，可抵挡扒手鸡南北或小偷狗东西的一次偷窃行为，一次性使用。",
+    "tip": "喵～白猫警长来了！有这位神勇警长守护，扒手鸡南北和狗东西哪敢靠近？统统吓得落荒而逃！"
   },
   {
     "ID": 30081,
-    "type": 1,
-    "useType": 8,
     "name": "如法炮制卡",
-    "desc": "可复制自己持有的一张卡片，扩大战术选择。",
-    "extraRoll": true,
-    "tip": "XX董事长有样学样，如法炮制出了一张一模一样的卡片！这波神乎其技的复制连魔术师都自愧不如！",
-    "target": 0,
-    "countType": 1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 1,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 50016,
+    "param": [
+      2,
+      1
+    ],
+    "extraRoll": true,
+    "desc": "可复制自己持有的一张卡片，扩大战术选择。",
+    "tip": "XX董事长有样学样，如法炮制出了一张一模一样的卡片！这波神乎其技的复制连魔术师都自愧不如！"
   },
   {
     "ID": 30092,
-    "type": 1,
-    "useType": 7,
     "name": "指定扔垃圾卡",
-    "desc": "在地图任意格子放置垃圾，阻碍他人前进。",
-    "extraRoll": false,
-    "tip": "XXX董事长使用了指定扔垃圾卡，请选择一个地方扔垃圾！",
-    "target": 3,
-    "countType": 1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 5,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 0,
+    "param": [],
+    "extraRoll": false,
+    "desc": "在地图任意格子放置垃圾，阻碍他人前进。",
+    "tip": "XXX董事长使用了指定扔垃圾卡，请选择一个地方扔垃圾！"
   },
   {
     "ID": 30096,
-    "type": 1,
-    "useType": 6,
     "name": "抱大腿卡",
-    "desc": "本回合可随机召唤一位历史人物，并立即获得他的帮助。",
-    "extraRoll": false,
-    "tip": "XXX董事长使用了抱大腿卡，召唤了一位历史名人！让我们看看是哪位大佬！\n（特效技能结束后）文本写：XXX董事长！我在xx城市等你（该城市是该名历史人物所在城市）",
-    "target": 0,
-    "countType": 1,
+    "type": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 0,
+    "target": 1,
+    "countType": 0,
     "count": [
       1
     ],
-    "arg": ""
+    "triggerTimings": [],
+    "skillID": 0,
+    "param": [
+      1,
+      0
+    ],
+    "extraRoll": false,
+    "desc": "本回合可随机召唤一位历史人物，并立即获得他的帮助。",
+    "tip": "XXX董事长使用了抱大腿卡，召唤了一位历史名人！让我们看看是哪位大佬！\n（特效技能结束后）文本写：XXX董事长！我在xx城市等你（该城市是该名历史人物所在城市）"
   },
   {
     "ID": 30104,
-    "type": 3,
-    "useType": 4,
     "name": "小鬼难缠卡",
-    "desc": "每月被小鬼夺走少量金钱，无法丢弃。",
-    "extraRoll": false,
-    "tip": "可随机派遣魑魅魍魉骚扰目标玩家。",
-    "target": 4,
-    "countType": 2,
+    "type": 3,
+    "money": 0,
+    "quality": 0,
+    "useType": 1,
+    "target": 0,
+    "countType": 1,
     "count": [
       3,
       6
     ],
-    "arg": "将恶鬼难缠卡\n小鬼难缠卡、大鬼难缠卡随机给目标玩家，可给2-4张"
+    "triggerTimings": [
+      3
+    ],
+    "skillID": 0,
+    "param": [
+      2,
+      1000,
+      10,
+      100,
+      1,
+      10
+    ],
+    "extraRoll": false,
+    "desc": "每月被小鬼夺走少量金钱，无法丢弃。",
+    "tip": "可随机派遣魑魅魍魉骚扰目标玩家。"
   },
   {
     "ID": 30106,
-    "type": 3,
-    "useType": 25,
     "name": "烫手山芋卡",
-    "desc": "获得后，若不尽快转交他人，将在几个月后爆炸，炸掉所有卡牌，无法丢弃。",
-    "extraRoll": false,
-    "tip": "爆炸后文字：山芋太烫了呜呜呜，董事长你把握不住，怎么连所有卡牌都扔掉了。",
-    "target": 4,
-    "countType": 2,
-    "count": [
-      2,
-      6
-    ],
-    "arg": ""
-  },
-  {
-    "ID": 30109,
     "type": 3,
-    "useType": 4,
-    "name": "万劫不复卡",
-    "desc": "若不尽快卖掉，将引发大灾难，爆炸后损失大量金钱。",
-    "extraRoll": false,
-    "tip": "爆炸后文字：我不入地狱，谁入地狱？与其把灾难给别人，不如自己默默承受，董事长真是太伟大了！",
-    "target": 4,
-    "countType": 2,
+    "money": 0,
+    "quality": 0,
+    "useType": 2,
+    "target": 2,
+    "countType": 1,
     "count": [
       2,
       6
     ],
-    "arg": ""
+    "triggerTimings": [
+      3
+    ],
+    "skillID": 0,
+    "param": [],
+    "extraRoll": false,
+    "desc": "获得后，若不尽快转交他人，将在几个月后爆炸，炸掉所有卡牌，无法丢弃。",
+    "tip": "爆炸后文字：山芋太烫了呜呜呜，董事长你把握不住，怎么连所有卡牌都扔掉了。"
   }
 ]
