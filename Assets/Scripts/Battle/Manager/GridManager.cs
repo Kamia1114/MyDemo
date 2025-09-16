@@ -138,7 +138,7 @@ namespace Battle.Manager
                             }
                             GameObject curLineObject = Instantiate(lineObject, gridLineContainer.transform, false);
                             curLineObject.name = name;
-                            curLineObject.transform.position = new Vector3(model.Coordinates.x, 0.0f, model.Coordinates.z);
+                            curLineObject.transform.position = new Vector3(model.Coordinates.x, 2.02f, model.Coordinates.z);
                             curLineObject.GetComponent<LineRenderer>().SetPosition(0, new Vector3(model.Coordinates.x, 0.01f, model.Coordinates.z));
                             curLineObject.GetComponent<LineRenderer>().SetPosition(1, new Vector3(linkedModel.Coordinates.x, 0.01f, linkedModel.Coordinates.z));
                         }
