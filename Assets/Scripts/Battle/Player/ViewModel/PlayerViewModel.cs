@@ -28,7 +28,6 @@ namespace Battle.Player
         public event Action OnUpdateUI;
         public event Action<string> OnShowMessage;
         public event Action<PlayerAction> OnPlayerActionChanged;
-        public Action<PlayerEventObject> onPlayerEvent;
         public PlayerViewModel(PlayerManager manager)
         {
             playerManager = manager;
@@ -63,9 +62,9 @@ namespace Battle.Player
         //---------------------------------------------------------------
         /// 业务逻辑调用接口
 
-        public int RollDice()
+        public int RollDice(int diceCount)
         {
-            int result = playerManager.CurrentPlayer.StateMachine.HandleRollDice();
+            int result = playerManager.CurrentPlayer.StateMachine.HandleRollDice(diceCount);
             return result;
         }
 

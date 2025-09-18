@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Battle.Skill;
 using UnityEngine;
 
 /// <summary>
@@ -15,17 +16,6 @@ public enum PlayerAction
     Moving,     // 移动中
     Arrived,    // 到达目的地
     EndDecide,      // 事件处理
-}
-
-/// <summary>
-/// 道具类
-/// </summary>
-// [Serializable]
-public class PlayerCard
-{
-    public int id;             // 道具唯一ID
-    public int cardId;       // 卡牌配置ID
-    public int times;     // 剩余次数
 }
 
 public class Stock
@@ -45,13 +35,13 @@ public class Stock
 public class PlayerAssets
 {
     public int Money; // 金钱
-    public List<PlayerCard> Cards; // 拥有的卡牌
+    public List<CardModel> Cards; // 拥有的卡牌
     public List<Stock> OwnedCompanys; // 拥有的公司股票
 
     public PlayerAssets()
     {
         Money = 0;
-        Cards = new List<PlayerCard>();
+        Cards = new List<CardModel>();
         OwnedCompanys = new List<Stock>();
     }
 
@@ -82,6 +72,7 @@ public abstract class PlayerModelABS
     protected int nextGridId;      // 本次移动目标格子ID
     protected List<int> movedPath; // 本次移动目标格子列表
     protected List<int> movePath;      // 本次将移动路径
+    protected List<SkillBase> skills; // 角色技能列表
     protected int remainSteps;         // 剩余移动步数
     [Header("资产信息")]
     protected PlayerAssets playerAssets; // 玩家资产
@@ -98,6 +89,7 @@ public abstract class PlayerModelABS
     public bool IsAI => isAI;
     public List<int> DiceList => diceList;
     public PlayerAssets PlayerAssets => playerAssets;
+    public List<SkillBase> Skills => skills;
 
     #endregion
 }

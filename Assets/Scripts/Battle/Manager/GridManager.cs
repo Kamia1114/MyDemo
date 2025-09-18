@@ -11,11 +11,6 @@ using UnityEngine;
 
 namespace Battle.Manager
 {
-    public struct GridEventObject
-    {
-        public GridEventEnum eventType;
-        public int gridId;
-    }
 
     /// <summary>
     /// 只负责格子数据的加载、存储、查找（如GridModel的管理）。
@@ -138,9 +133,9 @@ namespace Battle.Manager
                             }
                             GameObject curLineObject = Instantiate(lineObject, gridLineContainer.transform, false);
                             curLineObject.name = name;
-                            curLineObject.transform.position = new Vector3(model.Coordinates.x, 2.02f, model.Coordinates.z);
-                            curLineObject.GetComponent<LineRenderer>().SetPosition(0, new Vector3(model.Coordinates.x, 0.01f, model.Coordinates.z));
-                            curLineObject.GetComponent<LineRenderer>().SetPosition(1, new Vector3(linkedModel.Coordinates.x, 0.01f, linkedModel.Coordinates.z));
+                            curLineObject.transform.position = new Vector3(model.Coordinates.x, GameConfig.GridOffsetY - 0.01f, model.Coordinates.z);
+                            curLineObject.GetComponent<LineRenderer>().SetPosition(0, new Vector3(model.Coordinates.x, GameConfig.GridOffsetY - 0.01f, model.Coordinates.z));
+                            curLineObject.GetComponent<LineRenderer>().SetPosition(1, new Vector3(linkedModel.Coordinates.x, GameConfig.GridOffsetY - 0.01f, linkedModel.Coordinates.z));
                         }
                     }
                 }
@@ -221,9 +216,9 @@ namespace Battle.Manager
             tipGridItemMap.Clear();
         }
 
-        public void OnHandlerEvent(GridEventObject eventData)
+        public void OnHandlerEvent(EventStruct eventData)
         {
-            EventManager.TriggerEvent(GameEvent.OnGridEvent, eventData);
+            EventManager.TriggerEvent(GameEvent.OnBattleEvent, eventData);
         }
     }
 }

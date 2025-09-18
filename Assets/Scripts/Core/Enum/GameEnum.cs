@@ -26,12 +26,12 @@ namespace Core.Enum
 	}
 	
 	// 触发时机（用于被动卡牌）
-	public enum TriggerTiming {
-		TurnStart,   // 回合开始
-		TurnEnd,     // 回合结束
-		StepMove,    // 移动时
-		MoneyChange  // 金钱变化时
-		// 可扩展其他时机
-	}
+	// public enum TriggerTimingEnum {
+	// 	TurnStart,   // 回合开始
+	// 	TurnEnd,     // 回合结束
+	// 	StepMove,    // 移动时
+	// 	MoneyChange  // 金钱变化时
+	// 	// 可扩展其他时机
+	// }
 
 }

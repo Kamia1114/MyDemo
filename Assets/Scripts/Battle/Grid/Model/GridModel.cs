@@ -31,7 +31,7 @@ namespace Battle.Grid
             gridId = configData.ID;
             gridType = configData.type;
             cityId = configData.cfgID;
-            coordinates = new Vector3(configData.coord[0] * GameConfig.GridInterval, 2.04f, configData.coord[1] * GameConfig.GridInterval);
+            coordinates = new Vector3(configData.coord[0] * GameConfig.GridInterval, GameConfig.GridOffsetY, configData.coord[1] * GameConfig.GridInterval);
             connectedGrids = configData.links;
             arg = configData.arg;
         }

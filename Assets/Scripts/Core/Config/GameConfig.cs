@@ -5,4 +5,5 @@ public static class GameConfig
     public static int MaxPlayers = 4;     // 最大玩家数量
     public static float PlayerSpeed = 1.0f; // 玩家移动速度
     public static float PlayerOffsetY = 0.2f; // 玩家Y轴位置
+    public static float GridOffsetY = 0.15f; // 地块Y轴位置
 }

@@ -3,6 +3,7 @@
     "ID": 30007,
     "name": "加速PLUS卡",
     "type": 1,
+    "interactionType": 1,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -11,6 +12,8 @@
     "count": [
       5
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50001,
     "param": [
@@ -24,6 +27,7 @@
     "ID": 30010,
     "name": "特快列车卡",
     "type": 1,
+    "interactionType": 1,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -32,6 +36,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50001,
     "param": [
@@ -45,6 +51,7 @@
     "ID": 30033,
     "name": "随心飞卡",
     "type": 1,
+    "interactionType": 2,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -53,6 +60,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50010,
     "param": [
@@ -67,6 +76,7 @@
     "ID": 30035,
     "name": "乐不思蜀卡",
     "type": 1,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -75,6 +85,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50009,
     "param": [
@@ -88,6 +100,7 @@
     "ID": 30050,
     "name": "巧取豪夺卡",
     "type": 0,
+    "interactionType": 3,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -96,6 +109,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50008,
     "param": [
@@ -109,6 +124,7 @@
     "ID": 30057,
     "name": "祸水东引卡",
     "type": 0,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -117,6 +133,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50011,
     "param": [],
@@ -128,6 +146,7 @@
     "ID": 30058,
     "name": "打家劫舍卡",
     "type": 0,
+    "interactionType": 3,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -136,6 +155,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50012,
     "param": [
@@ -150,6 +171,7 @@
     "ID": 30063,
     "name": "一笔勾销卡",
     "type": 2,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -158,11 +180,11 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50013,
-    "param": [
-      2
-    ],
+    "param": [],
     "extraRoll": true,
     "desc": "所有负债玩家的债务一笔勾销，持有资金清零。",
     "tip": "东山再起，从头再来！XX董事长上演了一出雪中送炭，把大家的负债都一笔勾销了！欠债的玩家们终于轻装上阵，感激地直呼万岁！"
@@ -171,25 +193,26 @@
     "ID": 30070,
     "name": "财神卡",
     "type": 2,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 1,
     "target": 1,
     "countType": 0,
     "count": [
-      1
+      12
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [
       3
     ],
     "skillID": 50014,
     "param": [
-      3,
-      1,
+      12,
       1000,
-      5,
-      5000,
-      12
+      7,
+      5000
     ],
     "extraRoll": true,
     "desc": "持有后每月都会获得一定金额，5个月后卡片会升级为五路财神卡，此后每月送财额度提升5倍，持续12个月。",
@@ -199,6 +222,7 @@
     "ID": 30073,
     "name": "白猫警长卡",
     "type": 2,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 1,
@@ -207,6 +231,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [
       7
     ],
@@ -220,6 +246,7 @@
     "ID": 30081,
     "name": "如法炮制卡",
     "type": 2,
+    "interactionType": 5,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -228,6 +255,8 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
     "skillID": 50016,
     "param": [
@@ -242,6 +271,7 @@
     "ID": 30092,
     "name": "指定扔垃圾卡",
     "type": 2,
+    "interactionType": 6,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -250,9 +280,14 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
-    "skillID": 0,
-    "param": [],
+    "skillID": 50017,
+    "param": [
+      2,
+      1
+    ],
     "extraRoll": false,
     "desc": "在地图任意格子放置垃圾，阻碍他人前进。",
     "tip": "XXX董事长使用了指定扔垃圾卡，请选择一个地方扔垃圾！"
@@ -261,6 +296,7 @@
     "ID": 30096,
     "name": "抱大腿卡",
     "type": 2,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 0,
@@ -269,8 +305,10 @@
     "count": [
       1
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [],
-    "skillID": 0,
+    "skillID": 50018,
     "param": [
       1,
       0
@@ -283,6 +321,7 @@
     "ID": 30104,
     "name": "小鬼难缠卡",
     "type": 3,
+    "interactionType": 0,
     "money": 0,
     "quality": 0,
     "useType": 1,
@@ -292,10 +331,12 @@
       3,
       6
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [
       3
     ],
-    "skillID": 0,
+    "skillID": 50019,
     "param": [
       2,
       1000,
@@ -312,6 +353,7 @@
     "ID": 30106,
     "name": "烫手山芋卡",
     "type": 3,
+    "interactionType": 3,
     "money": 0,
     "quality": 0,
     "useType": 2,
@@ -321,10 +363,12 @@
       2,
       6
     ],
+    "uiType": [],
+    "useCondition": [],
     "triggerTimings": [
       3
     ],
-    "skillID": 0,
+    "skillID": 50020,
     "param": [],
     "extraRoll": false,
     "desc": "获得后，若不尽快转交他人，将在几个月后爆炸，炸掉所有卡牌，无法丢弃。",

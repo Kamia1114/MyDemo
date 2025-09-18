@@ -9,7 +9,9 @@ namespace Core.Table
 		// 唯一id
 		public int ID;
 		// 技能名
-		public string effect;
+		public string name;
+		// 技能枚举
+		public SkillTypeEnum skillType;
 		// 效果描述
 		public string desc;
 	}

@@ -1,4 +1,5 @@
 using System;
+using Core.Enum;
 using Core.Mgr;
 using UnityEngine;
 
@@ -96,6 +97,7 @@ namespace Battle.Manager
                 return;
             }
             curRound = (curRound + 1) % 12;
+            EventCenter.Instance.Trigger(TriggerTimingEnum.TurnStart);
             PlayerStart();
         }
 

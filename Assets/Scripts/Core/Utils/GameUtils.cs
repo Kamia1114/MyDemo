@@ -6,7 +6,7 @@ namespace Core.Utils
 {
     public static class GameUtils
     {
-        public static void SetTimeout(float seconds, Action callback)
+        public static void SetTimeout(Action callback, float seconds)
         {
             // 优化：只创建一个全局TimeoutMono对象，避免每次new带来的开销
             TimeoutMono.Instance.StartCoroutine(DelayCoroutine(seconds, callback));

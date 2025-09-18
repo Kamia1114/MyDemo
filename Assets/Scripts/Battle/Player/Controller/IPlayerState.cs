@@ -12,6 +12,6 @@ namespace Battle.Player
         bool HandleMoveToGrid(PlayerModel player, int gridId) { return false; }
 
         // 处理掷骰子
-        int HandleRollDice(PlayerModel player) { return -1; }
+        int HandleRollDice(PlayerModel player, int diceCount) { return -1; }
     }
 }

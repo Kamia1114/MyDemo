@@ -11,7 +11,7 @@ namespace Battle.Grid
     /// </summary>
     public class GridViewModel
     {
-        public Action<GridEventObject> onGridEvent;
+        public Action<EventStruct> onGridEvent;
 
         private GridManager gridManager;
         public GridViewModel(GridManager manager)
@@ -31,7 +31,7 @@ namespace Battle.Grid
         // 示例：处理格子被点击
         public void OnGridClicked(int gridId)
         {
-            onGridEvent?.Invoke(new GridEventObject { gridId = gridId, eventType = GridEventEnum.OnGridClicked });
+            onGridEvent?.Invoke(new EventStruct(EventEnum.OnGridClicked, gridId));
         }
     }
 }

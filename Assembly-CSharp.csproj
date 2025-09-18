@@ -93,9 +93,11 @@
     <Compile Include="Assets\Scripts\UI\Battle\View\CardGridUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\View\StartDecideUI.cs" />
+    <Compile Include="Assets\Scripts\UI\Common\CommonTalkUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\View\Comp\GridUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\View\CityView.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\SkillBase.cs" />
     <Compile Include="Assets\Scripts\Core\Table\CharacterCfgTable.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Model\Base\PlayerModelABS.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\View\PlayerItem.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\AddDice.cs" />
     <Compile Include="Assets\Scripts\Core\Mgr\ConfigManager.cs" />
     <Compile Include="Assets\Scripts\UI\Talk\TalkUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\ArrivedState.cs" />
@@ -114,6 +117,7 @@
     <Compile Include="Assets\Scripts\Core\Mgr\CreateManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\FixedAngleDragCmera.cs" />
+    <Compile Include="Assets\Scripts\Battle\Card\Controller\ActiveCard.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\View\PlayerView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
@@ -126,9 +130,11 @@
     <Compile Include="Assets\Scripts\Battle\Player\Controller\WaitMoveState.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\IPlayerState.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\WealthGod.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\UI\MainUI\MainUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\Battle\Card\Controller\ICardEventListener.cs" />
     <Compile Include="Assets\Scripts\Core\Utils\UIBinder.cs" />
     <Compile Include="Assets\Scripts\Core\Enum\GameEnum.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -151,14 +157,16 @@
     <Compile Include="Assets\Scripts\Core\Config\GameConfig.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\MovingState.cs" />
     <Compile Include="Assets\Scripts\Battle\Player\Controller\EndDecideState.cs" />
+    <Compile Include="Assets\Scripts\Battle\Card\Controller\IEventListener.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Core\Mgr\UIManager.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\View\Component\CityCompanyUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Card\Model\CardModel.cs" />
-    <Compile Include="Assets\Scripts\Battle\Event\EffectExecutor.cs" />
+    <Compile Include="Assets\Scripts\Battle\Card\Controller\PassiveCard.cs" />
     <Compile Include="Assets\Scripts\Core\Enum\ConfigEnum.cs" />
     <Compile Include="Assets\Scripts\Core\Config\UIConfig.cs" />
     <Compile Include="Assets\Scripts\Battle\Event\ConditionChecker.cs" />
+    <Compile Include="Assets\Scripts\Battle\Manager\SkillManager.cs" />
     <Compile Include="Assets\Scripts\UI\Battle\Controller\GameUIController.cs" />
     <Compile Include="Assets\Scripts\Core\Plugin\FollowUI.cs" />
     <Compile Include="Assets\Scripts\Battle\Grid\View\GridView.cs" />

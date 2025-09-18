@@ -58,4 +58,42 @@ namespace Core.Enum
 		CompanyBuy, 
 		BuyCompany 
 	}
+
+	public enum InteractionTypeEnum 
+	{
+		Default, 
+		DiceCount, 
+		FlyTo, 
+		Player, 
+		PlayerCard, 
+		SelfCard, 
+		Grid 
+	}
+
+	public enum CardUITypeEnum 
+	{
+		Player, 
+		Card, 
+		Fly 
+	}
+
+	public enum SkillTypeEnum 
+	{
+		DiceCount, 
+		DiceNumber, 
+		AddMoney, 
+		CutMoney, 
+		AddCard, 
+		DelCard, 
+		RobMoney, 
+		RobCard, 
+		Fly, 
+		FlyTo, 
+		CometLeave, 
+		Robbery, 
+		ClearDebt, 
+		WealthGod, 
+		Counter, 
+		CopyCard 
+	}
 }

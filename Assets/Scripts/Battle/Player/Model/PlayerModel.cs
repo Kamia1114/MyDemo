@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Battle.Manager;
 using Battle.Player;
+using Battle.Skill;
 using Core.Mgr;
 using Core.Table;
 using UnityEngine;
@@ -39,11 +40,12 @@ public class PlayerModel : PlayerModelABS
         playerAssets = new PlayerAssets
         {
             Money = characterCfg.money, // 初始资金
-            Cards = characterCfg.card?.Select(cardId => new PlayerCard { id = Guid.NewGuid().GetHashCode(), cardId = cardId, times = 1 }).ToList() ?? new List<PlayerCard>()
+            Cards = characterCfg.card?.Select(cardId => CardManager.Instance.CreateCardModel(cardId, index)).ToList() ?? new List<CardModel>()
         };
         currentGridId = int.Parse(ConfigManager.GetGameConfig("StartPoint"));//初始发车上海
         movedPath = new List<int> { };
         movePath = new List<int> { };
+        skills = new List<SkillBase>();
         carRes = $"Car_0{userData.index}"; // 这里可以根据需要配置车ID
         playerAction = PlayerAction.Idle;
         StateMachine = new PlayerStateMachine(this);
@@ -140,7 +142,7 @@ public class PlayerModel : PlayerModelABS
     /// <summary>
     /// 金钱变更
     /// </summary>
-    public virtual void ChangeMoney(int amount)
+    public void ChangeMoney(int amount)
     {
         playerAssets.Money += amount;
         OnUpdateUI?.Invoke();
@@ -149,7 +151,7 @@ public class PlayerModel : PlayerModelABS
     /// <summary>
     /// 添加公司股份资产
     /// </summary>
-    public virtual bool BuyCompany(Stock stock)
+    public bool BuyCompany(Stock stock)
     {
         if (playerAssets.Money < stock.money) return false;
         ChangeMoney(-1 * stock.money);
@@ -161,7 +163,7 @@ public class PlayerModel : PlayerModelABS
     /// 出售公司股份
     /// </summary>
     /// <param name="companyId"></param>
-    public virtual void SellCompany(int companyId)
+    public void SellCompany(int companyId)
     {
         var stock = playerAssets.OwnedCompanys.Find(s => s.id == companyId);
         if (stock != null)
@@ -175,7 +177,7 @@ public class PlayerModel : PlayerModelABS
     /// 移除公司股份
     /// </summary>
     /// <param name="companyId"></param>
-    public virtual void RemoveCompany(int companyId)
+    public void RemoveCompany(int companyId)
     {
         var stock = playerAssets.OwnedCompanys.Find(s => s.id == companyId);
         if (stock != null)
@@ -187,12 +189,12 @@ public class PlayerModel : PlayerModelABS
     /// <summary>
     /// 检查是否拥有指定地块
     /// </summary>
-    public virtual bool HasCompanyById(int companyId)
+    public bool HasCompanyById(int companyId)
     {
         return playerAssets.OwnedCompanys.Exists(stock => stock.id == companyId);
     }
 
-    public virtual int GetCompanyCount()
+    public int GetCompanyCount()
     {
         return playerAssets.OwnedCompanys.Count;
     }
@@ -200,53 +202,42 @@ public class PlayerModel : PlayerModelABS
     /// <summary>
     /// 获取所有公司分红总和
     /// </summary>
-    public virtual int GetAllCompanysDivvy()
+    public int GetAllCompanysDivvy()
     {
         return playerAssets.OwnedCompanys.Sum(s => s.money * s.ratio / 100);
     }
 
-    public virtual int GetMoney()
+    public int GetMoney()
     {
         return playerAssets.Money;
     }
 
     /// <summary>
-    /// 添加道具
+    /// 添加卡牌
     /// </summary>
-    public virtual void AddCard(int cardId)
+    public void AddCard(int cardId)
     {
-        var cardCfg = ConfigManager.GetConfig<CardCfgTable>(cardId);
-        if (cardCfg != null)
-        {
-            int count;
-            if (cardCfg.count.Count == 1)
-            {
-                count = cardCfg.count[0];
-            }
-            else if (cardCfg.count.Count == 2)
-            {
-                count = UnityEngine.Random.Range(cardCfg.count[0], cardCfg.count[1] + 1);
-            }
-            else
-            {
-                Debug.LogWarning($"卡牌配置错误，ID {cardId} 的 count 字段应包含1或2个元素");
-                return;
-            }
-            PlayerCard card = new() { id = Guid.NewGuid().GetHashCode(), cardId = cardId, times = count };
-            playerAssets.Cards.Add(card);
-        }
+        playerAssets.Cards.Add(CardManager.Instance.CreateCardModel(cardId, index));
     }
 
     /// <summary>
-    /// 使用道具
+    /// 通过位移ID获取卡牌
     /// </summary>
-    public virtual bool UseCard(int id)
+    public CardModel GetCard(int id)
     {
-        var card = playerAssets.Cards.Find(i => i.id == id);
+        return playerAssets.Cards.Find(i => i.ID == id);
+    }
+
+    /// <summary>
+    /// 使用卡牌
+    /// </summary>
+    public bool UseCard(int id)
+    {
+        var card = playerAssets.Cards.Find(i => i.ID == id);
         if (card != null)
         {
-            card.times--;
-            if (card.times <= 0)
+            card.remainingTimes--;
+            if (card.remainingTimes <= 0)
             {
                 playerAssets.Cards.Remove(card);
             }
@@ -260,7 +251,7 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual void RemoveCard(int id)
     {
-        var card = playerAssets.Cards.Find(i => i.id == id);
+        var card = playerAssets.Cards.Find(i => i.ID == id);
         if (card != null)
         {
             playerAssets.Cards.Remove(card);
@@ -272,7 +263,7 @@ public class PlayerModel : PlayerModelABS
     /// </summary>
     public virtual bool HasCard(int id)
     {
-        var card = playerAssets.Cards.Find(i => i.id == id);
+        var card = playerAssets.Cards.Find(i => i.ID == id);
         return card != null;
     }
 

@@ -1,82 +1,122 @@
 [
   {
     "ID": 50001,
-    "effect": "骰子数量",
+    "name": "骰子数量",
+    "skillType": 0,
     "desc": "掷骰子个数增加"
   },
   {
     "ID": 50002,
-    "effect": "骰子点数",
+    "name": "骰子点数",
+    "skillType": 1,
     "desc": "掷骰子点数固定"
   },
   {
     "ID": 50003,
-    "effect": "加钱",
+    "name": "加钱",
+    "skillType": 2,
     "desc": ""
   },
   {
     "ID": 50004,
-    "effect": "减钱",
+    "name": "减钱",
+    "skillType": 3,
     "desc": ""
   },
   {
     "ID": 50005,
-    "effect": "加卡",
+    "name": "加卡",
+    "skillType": -1,
     "desc": ""
   },
   {
     "ID": 50006,
-    "effect": "减卡",
+    "name": "减卡",
+    "skillType": -1,
     "desc": ""
   },
   {
     "ID": 50007,
-    "effect": "抢钱",
+    "name": "抢钱",
+    "skillType": 6,
     "desc": ""
   },
   {
     "ID": 50008,
-    "effect": "抢卡",
+    "name": "抢卡",
+    "skillType": 7,
     "desc": ""
   },
   {
     "ID": 50009,
-    "effect": "位移",
+    "name": "位移",
+    "skillType": 8,
     "desc": ""
   },
   {
     "ID": 50010,
-    "effect": "位移到指定类型格子",
+    "name": "位移到指定类型格子",
+    "skillType": -1,
     "desc": ""
   },
   {
     "ID": 50011,
-    "effect": "扫把星传别人",
+    "name": "扫把星传别人",
+    "skillType": 10,
     "desc": ""
   },
   {
     "ID": 50012,
-    "effect": "打家劫舍",
+    "name": "打家劫舍",
+    "skillType": 11,
     "desc": "10%钱全抢光（留1万）"
   },
   {
     "ID": 50013,
-    "effect": "清债",
+    "name": "清债",
+    "skillType": 12,
     "desc": ""
   },
   {
     "ID": 50014,
-    "effect": "财神附身",
+    "name": "财神附身",
+    "skillType": 13,
     "desc": ""
   },
   {
     "ID": 50015,
-    "effect": "反制",
+    "name": "反制",
+    "skillType": 14,
     "desc": ""
   },
   {
     "ID": 50016,
-    "effect": "复制卡牌",
+    "name": "复制卡牌",
+    "skillType": 15,
+    "desc": ""
+  },
+  {
+    "ID": 50017,
+    "name": "扔垃圾",
+    "skillType": -1,
+    "desc": ""
+  },
+  {
+    "ID": 50018,
+    "name": "历史人物召唤",
+    "skillType": -1,
+    "desc": ""
+  },
+  {
+    "ID": 50019,
+    "name": "鬼缠身",
+    "skillType": -1,
+    "desc": ""
+  },
+  {
+    "ID": 50020,
+    "name": "爆炸",
+    "skillType": -1,
     "desc": ""
   }
 ]

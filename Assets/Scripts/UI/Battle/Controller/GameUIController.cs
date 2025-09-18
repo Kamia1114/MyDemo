@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Battle.Grid;
 using Battle.Manager;
 using Battle.Player;
@@ -38,6 +39,18 @@ public class GameUIController : MonoBehaviour
     ///——————————————————————— 数据获取接口 ———————————————————
     public string Year => RoundManager.Instance.CurYear().ToString();
     public string Month => RoundManager.Instance.CurMonth().ToString();
+
+    public List<PlayerModel> GetAllPlayerModels()
+    {
+        return PlayerManager.Instance.GetAllPlayerModels().ToList();
+    }
+
+    public List<PlayerModel> GetOtherPlayerModels()
+    {
+        var allList = PlayerManager.Instance.GetAllPlayerModels().ToList();
+        allList.Remove(GetCurrentPlayerModel());
+        return allList;
+    }
 
     public PlayerModel GetCurrentPlayerModel()
     {
@@ -149,15 +162,20 @@ public class GameUIController : MonoBehaviour
 
     /// StartDecide接口
 
-    public int RollDice()
+    public int RollDice(int diceCount)
     {
-        int result = playerViewModel.RollDice();
+        int result = playerViewModel.RollDice(diceCount);
         return result;
     }
 
-    public void UseCard(int cardOnlyId)
+    // 使用卡牌，复杂接口之后还需要补充数据
+    public void UseCard(int cardOnlyId, int param = 0)
     {
-        playerViewModel.UseCard(cardOnlyId);
+        PlayerModel currentPlayer = GetCurrentPlayerModel();
+        var parameters = currentPlayer.GetCard(cardOnlyId)?.parameters;
+        var cardCfg = ConfigManager.GetConfig<CardCfgTable>(currentPlayer.GetCard(cardOnlyId)?.cardID ?? 0);
+        HandleMessage($"{currentPlayer.CharacterName} 使用了 {cardCfg?.name}");
+        CardManager.Instance.UseCard(cardOnlyId, new EventContext { caster = GetCurrentPlayerModel(), parameters = parameters, tempData = new List<int> { param } });
     }
 
     /// EndDecide接口
@@ -224,7 +242,7 @@ public class GameUIController : MonoBehaviour
                 }
                 break;
             default:
-                Debug.LogWarning($"未知角色状态类型: {action}");
+                // Debug.LogWarning($"未知角色状态类型: {action}");
                 break;
         }
     }

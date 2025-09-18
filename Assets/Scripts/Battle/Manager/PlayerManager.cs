@@ -19,12 +19,6 @@ namespace Battle.Manager
         public bool isAI;
     }
 
-    public struct PlayerEventObject
-    {
-        public PlayerEventEnum eventType;
-        public int playerId;
-    }
-
     /// <summary>
     /// 只负责玩家数据的创建、存储、查找（如PlayerModel的增删查）。
     /// 不处理UI、不直接操作GameObject。
@@ -72,24 +66,19 @@ namespace Battle.Manager
 
         public void InitEvent()
         {
-            playerViewModel.onPlayerEvent += OnHandlerPlayerEvent;
             StartCoroutine(ArrowKeyListenerCoroutine());
         }
 
-        public void OnHandlerPlayerEvent(PlayerEventObject eventData)
-        {
-            EventManager.TriggerEvent(GameEvent.OnPlayerEvent, eventData);
-        }
-
-        public void OnHandlerGridEvent(GridEventObject eventData)
+        public void OnHandlerEvent(EventStruct eventData)
         {
             switch (eventData.eventType)
             {
-                case GridEventEnum.OnGridClicked:
+                case EventEnum.OnGridClicked:
+                    var gridId = (int)eventData.args;
                     /// 只有当前玩家才响应格子点击事件
-                    if (currentPlayer != null && currentPlayer.CurrentGridId != eventData.gridId && currentPlayer.NextGridId != eventData.gridId)
+                    if (currentPlayer != null && currentPlayer.CurrentGridId != gridId && currentPlayer.NextGridId != gridId)
                     {
-                        currentPlayer.StateMachine.HandleMoveToGrid(eventData.gridId);
+                        currentPlayer.StateMachine.HandleMoveToGrid(gridId);
                     }
                     break;
                 default:
@@ -256,11 +245,11 @@ namespace Battle.Manager
                     Debug.Log($"玩家 {model.CharacterName} 本次结算无收入");
                 }
             }
-            GameUtils.SetTimeout(2.0f, () =>
+            GameUtils.SetTimeout(() =>
             {
                 Debug.Log("结算完毕，通知BattleManager");
                 BattleManager.Instance.SettlementEnd();
-            });
+            }, 2.0f);
         }
     }
 }

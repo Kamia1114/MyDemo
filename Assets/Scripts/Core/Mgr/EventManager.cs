@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 public static class EventManager
 {
-    private static readonly Dictionary<string, Action<object>> eventTable = new();
+    private static readonly Dictionary<string, Action<EventStruct>> eventTable = new();
 
-    public static void AddListener(string eventName, Action<object> listener)
+    public static void AddListener(string eventName, Action<EventStruct> listener)
     {
         if (!eventTable.ContainsKey(eventName))
             eventTable[eventName] = listener;
@@ -14,7 +14,7 @@ public static class EventManager
             eventTable[eventName] += listener;
     }
 
-    public static void RemoveListener(string eventName, Action<object> listener)
+    public static void RemoveListener(string eventName, Action<EventStruct> listener)
     {
         if (eventTable.ContainsKey(eventName))
         {
@@ -24,7 +24,7 @@ public static class EventManager
         }
     }
 
-    public static void TriggerEvent<T>(string eventName, T eventData)
+    public static void TriggerEvent(string eventName, EventStruct eventData)
     {
         if (eventTable.TryGetValue(eventName, out var thisEvent))
         {

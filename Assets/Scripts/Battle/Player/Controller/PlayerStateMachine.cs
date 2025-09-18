@@ -36,7 +36,7 @@ namespace Battle.Player
         // 转发状态处理方法
         public bool HandleMoveDirection(Direction direction) => currentState.HandleMoveDirection(player, direction);
         public bool HandleMoveToGrid(int gridId) => currentState.HandleMoveToGrid(player, gridId);
-        public int HandleRollDice() => currentState.HandleRollDice(player);
+        public int HandleRollDice(int diceCount) => currentState.HandleRollDice(player, diceCount);
         public void Update() => currentState.Update(player);
     }
 }

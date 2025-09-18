@@ -29,6 +29,7 @@ public enum UIName
     Talk,
     Dest,
     // 可以继续添加其他UI名称
+    MessageBox, // 通用消息弹窗
 }
 
 public static class UIConfig

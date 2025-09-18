@@ -19,7 +19,7 @@ namespace Core.Table
 		// 初始卡牌
 		public List<int> card;
 		// 角色技能
-		public int skillID;
+		public int skillId;
 		// 技能效果
 		public string effect;
 		// 播报文本

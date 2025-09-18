@@ -2,6 +2,7 @@ using Core.Utils;
 using UnityEngine;
 using System;
 using Core.Mgr;
+using Core.Enum;
 
 namespace Battle.Manager
 {
@@ -36,6 +37,7 @@ namespace Battle.Manager
 
         private void Init()
         {
+            SkillManager.Instance.Register();
             InitEvent();
         }
 
@@ -43,15 +45,12 @@ namespace Battle.Manager
         {
             roundManager.OnRoundOver += HandleRoundOver;
             roundManager.OnPlayIndexChanged += HandlePlayIndexChanged;
-
-            EventManager.AddListener(GameEvent.OnGridEvent, OnHandlerGridEvent);
-            EventManager.AddListener(GameEvent.OnPlayerEvent, OnHandlerPlayerEvent);
+            EventManager.AddListener(GameEvent.OnBattleEvent, OnHandlerBattleEvent);
         }
 
         public void GameStart()
         {
             Debug.Log("游戏开始！");
-            // OnGameStart?.Invoke();
             gridManager.RandomNextStationDest();
             roundManager.StartGame();
         }
@@ -77,6 +76,7 @@ namespace Battle.Manager
         private void HandleRoundOver()
         {
             Debug.Log("回合结束，进行结算");
+            EventCenter.Instance.Trigger(TriggerTimingEnum.TurnEnd);
             int SettlementPeriod = int.Parse(ConfigManager.GetGameConfig("Settlement"));
             if (roundManager.CurRound % SettlementPeriod == 0)
             {
@@ -86,13 +86,19 @@ namespace Battle.Manager
             else
             {
                 //结算周期没到，直接进入下一回合
-                roundManager.NextRound();
+                GameUtils.SetTimeout(() =>
+                {
+                    //确保结算界面关闭后再开始下一回合
+                    EventCenter.Instance.Trigger(TriggerTimingEnum.TurnStart);
+                    roundManager.NextRound();
+                }, 0.5f);
             }
         }
 
         public void SettlementEnd()
         {
             //结算结束，进入下一回合
+            EventCenter.Instance.Trigger(TriggerTimingEnum.TurnStart);
             roundManager.NextRound();
         }
 
@@ -114,21 +120,23 @@ namespace Battle.Manager
             gridManager.ShowNearGridTip(playerManager.CurrentPlayer);
         }
 
-        private void OnHandlerGridEvent(object data)
+        private void OnHandlerBattleEvent(EventStruct data)
         {
-            if (data is GridEventObject gridEvent)
+            Debug.Log("收到游戏中事件");
+            switch (data.eventType)
             {
-                playerManager.OnHandlerGridEvent(gridEvent);
+                case EventEnum.OnGridClicked:
+                    playerManager.OnHandlerEvent(data);
+                    break;
+                case EventEnum.OnShowMessage:
+                    UIManager.Instance.ShowMessage(data.args as string);
+                    break;
+                default:
+                    Debug.LogWarning("未处理的游戏事件: " + data.eventType);
+                    break;
             }
         }
-
-        private void OnHandlerPlayerEvent(object data)
-        {
-            if (data is PlayerEventObject playerEvent)
-            {
-                
-            }
-        }
+        
     }
 }
 

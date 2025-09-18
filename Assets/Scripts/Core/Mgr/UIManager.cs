@@ -82,20 +82,21 @@ namespace Core.Mgr
             // 实例化面板
             GameObject panel = Instantiate(panelPrefab, panelParent);
             panel.name = panelName.ToString(); // 保持名字一致
-            
+
             if (panel.TryGetComponent<BaseUI>(out var btBaseUI))
             {
                 btBaseUI.SetUIName(panelName);
                 btBaseUI.SetViewModel(transform.GetComponent<GameUIController>());
                 btBaseUI.Init(args);
                 btBaseUI.Show();
-            } else if (panel.TryGetComponent<BaseUI>(out var baseUI))
+            }
+            else if (panel.TryGetComponent<BaseUI>(out var baseUI))
             {
                 baseUI.SetUIName(panelName);
                 baseUI.Init(args);
                 baseUI.Show();
             }
-            
+
             // 确保面板在遮罩上方
             panel.transform.SetAsLastSibling();
 
@@ -113,25 +114,25 @@ namespace Core.Mgr
         private GameObject CreateMask(Transform parent)
         {
             GameObject mask;
-            
+
             mask = new GameObject("UIMask");
             mask.transform.SetParent(parent);
-            
+
             // 添加Image组件作为背景
             Image maskImage = mask.AddComponent<Image>();
             maskImage.color = new Color(0, 0, 0, 0.8f); // 半透黑
-            
+
             // 设置 RectTransform 铺满屏幕
             RectTransform rect = mask.GetComponent<RectTransform>();
             rect.anchorMin = Vector2.zero;
             rect.anchorMax = Vector2.one;
             rect.offsetMin = Vector2.zero;
             rect.offsetMax = Vector2.zero;
-            
+
             // 添加按钮组件用于检测空白区域点击
             Button maskButton = mask.GetComponent<Button>() ?? mask.AddComponent<Button>();
             maskButton.onClick.AddListener(CloseTopPanel);
-            
+
             return mask;
         }
 
@@ -169,7 +170,7 @@ namespace Core.Mgr
                 Destroy(topPanel);
             }
         }
-        
+
         public void CloseAllPanelsByLayer(UIType layer)
         {
             Stack<GameObject> tempStack = new Stack<GameObject>();
@@ -261,8 +262,13 @@ namespace Core.Mgr
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
             canvasObj.AddComponent<CanvasScaler>();
             canvasObj.AddComponent<GraphicRaycaster>();
-            
+
             return canvasObj;
+        }
+        
+        public void ShowMessage(string message)
+        {
+            OpenUI(UIName.MessageBox, new object[] { message });
         }
     }
 }
